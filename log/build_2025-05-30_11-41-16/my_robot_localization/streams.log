@@ -1,0 +1,40 @@
+[0.017s] Invoking command in '/home/dung/ros_ws/build/my_robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/home/dung/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_localization -- -j6 -l6
+[0.095s] Built target ament_cmake_python_copy_my_robot_localization
+[0.341s] running egg_info
+[0.343s] writing my_robot_localization.egg-info/PKG-INFO
+[0.344s] writing dependency_links to my_robot_localization.egg-info/dependency_links.txt
+[0.344s] writing top-level names to my_robot_localization.egg-info/top_level.txt
+[0.347s] reading manifest file 'my_robot_localization.egg-info/SOURCES.txt'
+[0.347s] writing manifest file 'my_robot_localization.egg-info/SOURCES.txt'
+[0.375s] Built target ament_cmake_python_build_my_robot_localization_egg
+[0.385s] Invoked command in '/home/dung/ros_ws/build/my_robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/home/dung/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_localization -- -j6 -l6
+[0.389s] Invoking command in '/home/dung/ros_ws/build/my_robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/home/dung/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_localization
+[0.393s] -- Install configuration: ""
+[0.393s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/environment/pythonpath.sh
+[0.393s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/environment/pythonpath.dsv
+[0.393s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/local/lib/python3.10/dist-packages/my_robot_localization-0.0.0-py3.10.egg-info
+[0.393s] -- Installing: /home/dung/ros_ws/install/my_robot_localization/local/lib/python3.10/dist-packages/my_robot_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.393s] -- Installing: /home/dung/ros_ws/install/my_robot_localization/local/lib/python3.10/dist-packages/my_robot_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.393s] -- Installing: /home/dung/ros_ws/install/my_robot_localization/local/lib/python3.10/dist-packages/my_robot_localization-0.0.0-py3.10.egg-info/top_level.txt
+[0.393s] -- Installing: /home/dung/ros_ws/install/my_robot_localization/local/lib/python3.10/dist-packages/my_robot_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[0.393s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/local/lib/python3.10/dist-packages/my_robot_localization
+[0.393s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/local/lib/python3.10/dist-packages/my_robot_localization/__init__.py
+[0.393s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/local/lib/python3.10/dist-packages/my_robot_localization/kalma_filter.py
+[0.424s] Listing '/home/dung/ros_ws/install/my_robot_localization/local/lib/python3.10/dist-packages/my_robot_localization'...
+[0.427s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/lib/my_robot_localization/kalma_filter.py
+[0.427s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/ament_index/resource_index/package_run_dependencies/my_robot_localization
+[0.427s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/ament_index/resource_index/parent_prefix_path/my_robot_localization
+[0.427s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/environment/ament_prefix_path.sh
+[0.428s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/environment/ament_prefix_path.dsv
+[0.428s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/environment/path.sh
+[0.428s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/environment/path.dsv
+[0.428s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/local_setup.bash
+[0.429s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/local_setup.sh
+[0.429s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/local_setup.zsh
+[0.429s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/local_setup.dsv
+[0.429s] -- Installing: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/package.dsv
+[0.429s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/ament_index/resource_index/packages/my_robot_localization
+[0.429s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/cmake/my_robot_localizationConfig.cmake
+[0.429s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/cmake/my_robot_localizationConfig-version.cmake
+[0.429s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_localization/share/my_robot_localization/package.xml
+[0.433s] Invoked command in '/home/dung/ros_ws/build/my_robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/home/dung/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_localization

@@ -1,0 +1,23 @@
+[0.536s] Invoking command in '/home/dung/ros_ws/src/keyboard_teleop': PYTHONPATH=/home/dung/ros_ws/build/keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_teleop build --build-base /home/dung/ros_ws/build/keyboard_teleop/build install --record /home/dung/ros_ws/build/keyboard_teleop/install.log --single-version-externally-managed install_data
+[0.804s] running egg_info
+[0.805s] writing ../../build/keyboard_teleop/keyboard_teleop.egg-info/PKG-INFO
+[0.805s] writing dependency_links to ../../build/keyboard_teleop/keyboard_teleop.egg-info/dependency_links.txt
+[0.808s] writing entry points to ../../build/keyboard_teleop/keyboard_teleop.egg-info/entry_points.txt
+[0.808s] writing requirements to ../../build/keyboard_teleop/keyboard_teleop.egg-info/requires.txt
+[0.808s] writing top-level names to ../../build/keyboard_teleop/keyboard_teleop.egg-info/top_level.txt
+[0.810s] reading manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'
+[0.812s] writing manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'
+[0.812s] running build
+[0.812s] running build_py
+[0.816s] running install
+[0.817s] running install_lib
+[0.821s] running install_data
+[0.821s] running install_egg_info
+[0.823s] removing '/home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[0.826s] Copying ../../build/keyboard_teleop/keyboard_teleop.egg-info to /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop-0.0.0-py3.10.egg-info
+[0.827s] running install_scripts
+[0.852s] Installing control_keyboard script to /home/dung/ros_ws/install/keyboard_teleop/lib/keyboard_teleop
+[0.852s] Installing simple_parameter script to /home/dung/ros_ws/install/keyboard_teleop/lib/keyboard_teleop
+[0.852s] Installing simple_tf_kinematic script to /home/dung/ros_ws/install/keyboard_teleop/lib/keyboard_teleop
+[0.852s] writing list of installed files to '/home/dung/ros_ws/build/keyboard_teleop/install.log'
+[0.908s] Invoked command in '/home/dung/ros_ws/src/keyboard_teleop' returned '0': PYTHONPATH=/home/dung/ros_ws/build/keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_teleop build --build-base /home/dung/ros_ws/build/keyboard_teleop/build install --record /home/dung/ros_ws/build/keyboard_teleop/install.log --single-version-externally-managed install_data

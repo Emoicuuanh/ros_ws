@@ -1,0 +1,6 @@
+{
+  "package_name": "my_robot_msgs",
+  "non_idl_tuples": [
+    "/home/dung/ros_ws/src/my_robot_msgs:srv/GetTranform.srv"
+  ]
+}

@@ -1,0 +1,5 @@
+[console_scripts]
+control_keyboard = keyboard_teleop.Control_Keyboard:main
+simple_parameter = dung_py_ex.parameter_py:main
+simple_tf_kinematic = dung_py_ex.simple_tf_kinematic:main
+
