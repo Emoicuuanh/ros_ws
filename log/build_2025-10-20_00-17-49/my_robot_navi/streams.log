@@ -1,0 +1,42 @@
+[0.042s] Invoking command in '/home/dung/ros_ws/build/my_robot_navi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake /home/dung/ros_ws/src/my_robot_navi -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/my_robot_navi
+[0.186s] -- The C compiler identification is GNU 11.4.0
+[0.289s] -- The CXX compiler identification is GNU 11.4.0
+[0.303s] -- Detecting C compiler ABI info
+[0.390s] -- Detecting C compiler ABI info - done
+[0.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.395s] -- Detecting C compile features
+[0.398s] -- Detecting C compile features - done
+[0.400s] -- Detecting CXX compiler ABI info
+[0.515s] -- Detecting CXX compiler ABI info - done
+[0.516s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.516s] -- Detecting CXX compile features
+[0.516s] -- Detecting CXX compile features - done
+[0.519s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.779s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.917s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.012s] -- Added test 'lint_cmake' to check CMake code style
+[1.013s] -- Added test 'xmllint' to check XML markup files
+[1.015s] -- Configuring done
+[1.018s] -- Generating done
+[1.020s] -- Build files have been written to: /home/dung/ros_ws/build/my_robot_navi
+[1.028s] Invoked command in '/home/dung/ros_ws/build/my_robot_navi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake /home/dung/ros_ws/src/my_robot_navi -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/my_robot_navi
+[1.030s] Invoking command in '/home/dung/ros_ws/build/my_robot_navi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_navi -- -j6 -l6
+[1.144s] Invoked command in '/home/dung/ros_ws/build/my_robot_navi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_navi -- -j6 -l6
+[1.144s] Invoking command in '/home/dung/ros_ws/build/my_robot_navi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_navi
+[1.170s] -- Install configuration: ""
+[1.170s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/ament_index/resource_index/package_run_dependencies/my_robot_navi
+[1.170s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/ament_index/resource_index/parent_prefix_path/my_robot_navi
+[1.170s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/ament_prefix_path.sh
+[1.170s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/ament_prefix_path.dsv
+[1.170s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/path.sh
+[1.170s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/path.dsv
+[1.171s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/local_setup.bash
+[1.171s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/local_setup.sh
+[1.171s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/local_setup.zsh
+[1.171s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/local_setup.dsv
+[1.171s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/package.dsv
+[1.171s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/ament_index/resource_index/packages/my_robot_navi
+[1.171s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/cmake/my_robot_naviConfig.cmake
+[1.171s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/cmake/my_robot_naviConfig-version.cmake
+[1.171s] -- Installing: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/package.xml
+[1.172s] Invoked command in '/home/dung/ros_ws/build/my_robot_navi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_navi

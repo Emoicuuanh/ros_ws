@@ -1,0 +1,15 @@
+/home/dung/ros_ws/install/my_robot_navi/share/ament_index/resource_index/package_run_dependencies/my_robot_navi
+/home/dung/ros_ws/install/my_robot_navi/share/ament_index/resource_index/parent_prefix_path/my_robot_navi
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/ament_prefix_path.sh
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/ament_prefix_path.dsv
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/path.sh
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/path.dsv
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/local_setup.bash
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/local_setup.sh
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/local_setup.zsh
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/local_setup.dsv
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/package.dsv
+/home/dung/ros_ws/install/my_robot_navi/share/ament_index/resource_index/packages/my_robot_navi
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/cmake/my_robot_naviConfig.cmake
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/cmake/my_robot_naviConfig-version.cmake
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/package.xml
