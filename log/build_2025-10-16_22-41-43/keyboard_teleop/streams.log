@@ -1,0 +1,19 @@
+[0.396s] Invoking command in '/home/dung/ros_ws/build/keyboard_teleop': CMAKE_PREFIX_PATH=/home/dung/ros_ws/install/my_robot_msgs:/home/dung/ros_ws/install/myrobot_controller:/home/dung/ros_ws/install/my_robot_utils:/home/dung/ros_ws/install/my_robot_planning:/home/dung/ros_ws/install/my_robot_motion:/home/dung/ros_ws/install/my_robot_mapping:/home/dung/ros_ws/install/my_robot_localization:/home/dung/ros_ws/install/my_robot_firmware:/home/dung/ros_ws/install/my_robot_bringup:/home/dung/ros_ws/install/my_robot_description PYTHONPATH=/home/dung/ros_ws/build/keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dung/ros_ws/build/keyboard_teleop/build --no-deps symlink_data
+[0.545s] running develop
+[0.632s] running egg_info
+[0.632s] writing keyboard_teleop.egg-info/PKG-INFO
+[0.632s] writing dependency_links to keyboard_teleop.egg-info/dependency_links.txt
+[0.632s] writing entry points to keyboard_teleop.egg-info/entry_points.txt
+[0.632s] writing requirements to keyboard_teleop.egg-info/requires.txt
+[0.632s] writing top-level names to keyboard_teleop.egg-info/top_level.txt
+[0.633s] reading manifest file 'keyboard_teleop.egg-info/SOURCES.txt'
+[0.634s] writing manifest file 'keyboard_teleop.egg-info/SOURCES.txt'
+[0.634s] running build_ext
+[0.634s] Creating /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard-teleop.egg-link (link to .)
+[0.635s] Installing control_keyboard script to /home/dung/ros_ws/install/keyboard_teleop/lib/keyboard_teleop
+[0.635s] Installing simple_parameter script to /home/dung/ros_ws/install/keyboard_teleop/lib/keyboard_teleop
+[0.635s] Installing simple_tf_kinematic script to /home/dung/ros_ws/install/keyboard_teleop/lib/keyboard_teleop
+[0.635s] 
+[0.635s] Installed /home/dung/ros_ws/build/keyboard_teleop
+[0.635s] running symlink_data
+[0.651s] Invoked command in '/home/dung/ros_ws/build/keyboard_teleop' returned '0': CMAKE_PREFIX_PATH=/home/dung/ros_ws/install/my_robot_msgs:/home/dung/ros_ws/install/myrobot_controller:/home/dung/ros_ws/install/my_robot_utils:/home/dung/ros_ws/install/my_robot_planning:/home/dung/ros_ws/install/my_robot_motion:/home/dung/ros_ws/install/my_robot_mapping:/home/dung/ros_ws/install/my_robot_localization:/home/dung/ros_ws/install/my_robot_firmware:/home/dung/ros_ws/install/my_robot_bringup:/home/dung/ros_ws/install/my_robot_description PYTHONPATH=/home/dung/ros_ws/build/keyboard_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dung/ros_ws/build/keyboard_teleop/build --no-deps symlink_data

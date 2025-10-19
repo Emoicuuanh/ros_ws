@@ -1,0 +1,25 @@
+[0.020s] Invoking command in '/home/dung/ros_ws/build/my_robot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_mapping -- -j12 -l12
+[0.055s] Invoked command in '/home/dung/ros_ws/build/my_robot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_mapping -- -j12 -l12
+[0.055s] Invoking command in '/home/dung/ros_ws/build/my_robot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_mapping
+[0.065s] -- Install configuration: ""
+[0.065s] -- Execute custom install script
+[0.065s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/config/slam_toolbox.yaml
+[0.065s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/launch/slam.launch.py
+[0.066s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/maps/map/map.pgm
+[0.066s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/maps/map/map.yaml
+[0.066s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/ament_index/resource_index/package_run_dependencies/my_robot_mapping
+[0.066s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/ament_index/resource_index/parent_prefix_path/my_robot_mapping
+[0.066s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/environment/ament_prefix_path.sh
+[0.066s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/environment/ament_prefix_path.dsv
+[0.067s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/environment/path.sh
+[0.067s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/environment/path.dsv
+[0.067s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/local_setup.bash
+[0.067s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/local_setup.sh
+[0.068s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/local_setup.zsh
+[0.068s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/local_setup.dsv
+[0.068s] -- Symlinking: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/package.dsv
+[0.077s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/ament_index/resource_index/packages/my_robot_mapping
+[0.077s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/cmake/my_robot_mappingConfig.cmake
+[0.078s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/cmake/my_robot_mappingConfig-version.cmake
+[0.078s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_mapping/share/my_robot_mapping/package.xml
+[0.091s] Invoked command in '/home/dung/ros_ws/build/my_robot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_mapping

@@ -1,0 +1,1 @@
+/home/dung/ros_ws/build/my_robot_planning/ament_cmake_environment_hooks/local_setup.bash

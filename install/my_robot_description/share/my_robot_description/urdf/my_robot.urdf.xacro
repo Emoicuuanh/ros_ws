@@ -1,10 +1,1 @@
-<?xml version="1.0"?>
-<robot name="my_robot" xmlns:xacro="http://ros.org/wiki/xacro">
-
-    <xacro:arg name="is_ignition" default= "true"/>
-    
-    <xacro:include filename="myrobot_control.xacro"/>
-    <xacro:include filename="common_property.xacro"/>
-    <xacro:include filename="mobile_base.xacro"/>
-    <xacro:include filename="mobile_base_gazebo.xacro"/>
-</robot> 
+/home/dung/ros_ws/src/my_robot_description/urdf/my_robot.urdf.xacro

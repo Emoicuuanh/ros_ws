@@ -1,0 +1,41 @@
+[0.019s] Invoking command in '/home/dung/ros_ws/build/my_robot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_planning -- -j12 -l12
+[0.075s] Built target ament_cmake_python_symlink_my_robot_planning
+[0.262s] running egg_info
+[0.263s] writing my_robot_planning.egg-info/PKG-INFO
+[0.263s] writing dependency_links to my_robot_planning.egg-info/dependency_links.txt
+[0.263s] writing top-level names to my_robot_planning.egg-info/top_level.txt
+[0.264s] reading manifest file 'my_robot_planning.egg-info/SOURCES.txt'
+[0.265s] writing manifest file 'my_robot_planning.egg-info/SOURCES.txt'
+[0.283s] Built target ament_cmake_python_build_my_robot_planning_egg
+[0.290s] Invoked command in '/home/dung/ros_ws/build/my_robot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_planning -- -j12 -l12
+[0.291s] Invoking command in '/home/dung/ros_ws/build/my_robot_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_planning
+[0.296s] -- Install configuration: ""
+[0.296s] -- Execute custom install script
+[0.296s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/environment/pythonpath.sh
+[0.296s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/environment/pythonpath.dsv
+[0.297s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning-0.0.0-py3.10.egg-info/PKG-INFO
+[0.297s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.297s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.297s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning-0.0.0-py3.10.egg-info/top_level.txt
+[0.297s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning/__init__.py
+[0.297s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning/a_star.py
+[0.297s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning/djiktra_planner.py
+[0.297s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/lib/my_robot_planning/djiktra_planner.py
+[0.297s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/lib/my_robot_planning/a_star.py
+[0.297s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/ament_index/resource_index/package_run_dependencies/my_robot_planning
+[0.297s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/ament_index/resource_index/parent_prefix_path/my_robot_planning
+[0.297s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/environment/ament_prefix_path.sh
+[0.297s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/environment/ament_prefix_path.dsv
+[0.298s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/environment/path.sh
+[0.298s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/environment/path.dsv
+[0.298s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/local_setup.bash
+[0.298s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/local_setup.sh
+[0.298s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/local_setup.zsh
+[0.298s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/local_setup.dsv
+[0.298s] -- Symlinking: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/package.dsv
+[0.304s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/ament_index/resource_index/packages/my_robot_planning
+[0.305s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/cmake/my_robot_planningConfig.cmake
+[0.305s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/cmake/my_robot_planningConfig-version.cmake
+[0.305s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/package.xml
+[0.329s] Listing '/home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning'...
+[0.336s] Invoked command in '/home/dung/ros_ws/build/my_robot_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_planning

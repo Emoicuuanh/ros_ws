@@ -1,2 +1,0 @@
-Invoking command in '/home/dung/ros_ws/build/myrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/myrobot_controller -- -j6 -l6
-Invoked command in '/home/dung/ros_ws/build/myrobot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/myrobot_controller -- -j6 -l6

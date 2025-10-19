@@ -29,7 +29,7 @@ def main():
 
     rclpy.init()
     node = rclpy.create_node('simple_teleop')
-    pub = node.create_publisher(TwistStamped, 'my_robot_controller/cmd_vel', 20)
+    pub = node.create_publisher(TwistStamped, "my_robot_controller/cmd_vel", 20)
 
     print("Điều khiển robot: w (tiến), s (lùi), a (trái), d (phải), x (dừng). Nhấn Ctrl+C để thoát.")
 

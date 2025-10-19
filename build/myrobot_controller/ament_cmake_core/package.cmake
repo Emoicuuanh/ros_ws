@@ -5,7 +5,7 @@ set(myrobot_controller_BUILD_DEPENDS "rclpy" "std_msgs" "sensor_msgs" "geometry_
 set(myrobot_controller_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(myrobot_controller_BUILD_EXPORT_DEPENDS "rclpy" "std_msgs" "sensor_msgs" "geometry_msgs" "nav_msgs" "tf2" "tf2_ros")
 set(myrobot_controller_BUILDTOOL_EXPORT_DEPENDS )
-set(myrobot_controller_EXEC_DEPENDS "ros2launch" "controller_manager" "tf_transformations" "rclpy" "std_msgs" "sensor_msgs" "geometry_msgs" "nav_msgs" "tf2" "tf2_ros")
+set(myrobot_controller_EXEC_DEPENDS "ros2launch" "controller_manager" "tf_transformations" "twist_mux" "rclpy" "std_msgs" "sensor_msgs" "geometry_msgs" "nav_msgs" "tf2" "tf2_ros")
 set(myrobot_controller_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(myrobot_controller_GROUP_DEPENDS )
 set(myrobot_controller_MEMBER_OF_GROUPS )

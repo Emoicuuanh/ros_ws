@@ -1,3 +1,1 @@
-#request
-string frame_id
-string child_frame_id
+/home/dung/ros_ws/build/my_robot_msgs/rosidl_cmake/srv/GetTranform_Request.msg

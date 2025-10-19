@@ -1,6 +1,5 @@
-#!/usr/bin//env python3
-
-
+#!/usr/bin/env python3
+                                        
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64MultiArray
@@ -19,8 +18,10 @@ from tf2_ros import TransformBroadcaster
 class SimpleController(Node):
     def __init__(self):
         super().__init__("simple_controller")
-        self.declare_parameter("wheel_radius",0.1)
-        self.declare_parameter("wheel_serapation",0.4)
+        self.declare_parameter("wheel_radius",0.04)
+        self.declare_parameter("wheel_serapation",0.37)
+        self.wheel_radius_ =self.get_parameter("wheel_radius").get_parameter_value().double_value
+        self.wheel_serapation_ =self.get_parameter("wheel_serapation").get_parameter_value().double_value
 
         self.left_wheel_pre_pos = 0.0
         self.right_wheel_pre_pos = 0.0
@@ -30,17 +31,11 @@ class SimpleController(Node):
         self.y_ = 0.0
         self.theta_ = 0.0
         
-        self.wheel_radius_ =self.get_parameter("wheel_radius").get_parameter_value().double_value
-        self.wheel_serapation_ =self.get_parameter("wheel_serapation").get_parameter_value().double_value
+        self.wheel_cmd_pub_ =self.create_publisher(Float64MultiArray,"simple_velocity_controller/commands",10)
+        self.vel_sub_ =self.create_subscription(TwistStamped,"my_robot_controller/cmd_vel",self.velcallback,10)
+   
         self.joint_sub_ =self.create_subscription(JointState,"joint_states",self.jointCallback,10)
         self.odom_pub_ = self.create_publisher(Odometry,"my_robot/odom",10)
-        self.wheel_cmd_pub_ =self.create_publisher(Float64MultiArray,"simple_velocity_controller/commands",20)
-        
-        self.vel_sub_ =self.create_subscription(TwistStamped,"my_robot_controller/cmd_vel",self.velcallback,20)
-
-        self.br_ =TransformBroadcaster(self)
-        self.br_stamped = TransformStamped()
-
 
         self.odom_msg_ =Odometry()
         self.odom_msg_.header.frame_id="odom"
@@ -50,6 +45,11 @@ class SimpleController(Node):
         self.odom_msg_.pose.pose.orientation.z =0.0
         self.odom_msg_.pose.pose.orientation.w =1.0
 
+        self.br_ =TransformBroadcaster(self)
+        self.br_stamped = TransformStamped()
+        self.br_stamped.header.frame_id="odom"
+        self.br_stamped.child_frame_id = "base_footprint"
+        
         self.vel_conver_ = np.array([[self.wheel_radius_/2,self.wheel_radius_/2] , [self.wheel_radius_/self.wheel_serapation_ , -self.wheel_radius_/self.wheel_serapation_]])
     def velcallback(self,msg):
         robot_speed = np.array([[msg.twist.linear.x],[msg.twist.angular.z]])
@@ -84,19 +84,18 @@ class SimpleController(Node):
         self.odom_msg_.pose.pose.orientation.y = q[1]
         self.odom_msg_.pose.pose.orientation.z = q[2]
         self.odom_msg_.pose.pose.orientation.w = q[3]
-        self.odom_msg_.header.stamp = self.get_clock().now().to_msg()
+        self.odom_msg_.header.stamp = msg.header.stamp
+        self.br_stamped.header.stamp = msg.header.stamp
+
         self.odom_msg_.pose.pose.position.x = self.x_
         self.odom_msg_.pose.pose.position.y = self.y_
         self.odom_msg_.twist.twist.linear.x = linear
         self.odom_msg_.twist.twist.angular.z = angular
 
-        self.br_stamped.header.frame_id="odom"
-        self.br_stamped.child_frame_id = "base_footprint"
         self.br_stamped.transform.rotation.x =q[0]
         self.br_stamped.transform.rotation.y =q[1]
         self.br_stamped.transform.rotation.z =q[2]
         self.br_stamped.transform.rotation.w =q[3]
-        self.br_stamped.header.stamp = self.get_clock().now().to_msg()
         self.br_stamped.transform.translation.x = self.x_
         self.br_stamped.transform.translation.y = self.y_
 

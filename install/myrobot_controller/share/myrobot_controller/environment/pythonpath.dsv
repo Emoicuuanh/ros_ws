@@ -1,1 +1,1 @@
-prepend-non-duplicate;PYTHONPATH;local/lib/python3.10/dist-packages
+/home/dung/ros_ws/build/myrobot_controller/ament_cmake_environment_hooks/pythonpath.dsv

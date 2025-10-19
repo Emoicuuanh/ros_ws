@@ -11,8 +11,6 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 def generate_launch_description():
 
     my_robot_description_dir=get_package_share_directory("my_robot_description")
-    ros_distro = os.environ["ROS_DISTRO"]
-    is_ignition = "True" if ros_distro =="humble" else "False"
     model_arg= DeclareLaunchArgument(
         name = "model",
         default_value= os.path.join(my_robot_description_dir, "urdf" ,"my_robot.urdf.xacro"),
@@ -32,8 +30,6 @@ def generate_launch_description():
 
     robot_description = ParameterValue(Command(["xacro ",
                                                 LaunchConfiguration("model"),
-                                                " is_ignition:=",
-                                                is_ignition
                                                 ]),
                                                 value_type=str)
     robot_state_publisher = Node(
@@ -41,6 +37,7 @@ def generate_launch_description():
         executable="robot_state_publisher",
         parameters=[{"robot_description" : robot_description}]
     )
+
     gazebo_resource_path = SetEnvironmentVariable(
         "GZ_SIM_RESOURCE_PATH",model_path
     )
@@ -62,9 +59,12 @@ def generate_launch_description():
     gz_ros2_bridge = Node(
         package="ros_gz_bridge",
         executable= "parameter_bridge",
-        arguments=["/imu@sensor_msgs/msg/Imu[gz.msgs.IMU"
+        arguments=[
+            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",
+            "/imu@sensor_msgs/msg/Imu[gz.msgs.IMU",
+            "/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan"
                    ],
-        remappings=[("/imu","/imu/out")]
+        remappings=[("/imu","/imu/out")] 
     )
 
     return LaunchDescription([
@@ -75,5 +75,4 @@ def generate_launch_description():
         gazebo,
         gz_spawn_entity,
         gz_ros2_bridge
-        
     ])

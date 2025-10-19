@@ -35,20 +35,20 @@ class Kalma_filter(Node):
     def odomCallback(self, odom):
         self.kalman_odom = odom
         if self.is_first_odom:
-            self.mean = odom.twist.twist.angular.z
+            self.mean_ = odom.twist.twist.angular.z
             self.last_angular_z = odom.twist.twist.angular.z
             self.is_first_odom = False
             return
         self.motion_ = odom.twist.twist.angular.z - self.last_angular_z
-        self.measureUpdate()
         self.statePrediction()
+        self.measureUpdate()
         self.kalman_odom.twist.twist.angular.z = self.mean_
         self.odom_pub_.publish(self.kalman_odom)
 def main():
     rclpy.init()
     node = Kalma_filter()
     rclpy.spin(node)
-    node.destroy_node()
+    node.destroy_node()  
     rclpy.shutdown()
 
 if __name__ =="__main__":

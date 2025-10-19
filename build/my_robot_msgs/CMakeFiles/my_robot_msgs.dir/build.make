@@ -79,6 +79,8 @@ CMakeFiles/my_robot_msgs: /opt/ros/humble/share/geometry_msgs/msg/Point.idl
 CMakeFiles/my_robot_msgs: /opt/ros/humble/share/geometry_msgs/msg/Point32.idl
 CMakeFiles/my_robot_msgs: /opt/ros/humble/share/geometry_msgs/msg/PointStamped.idl
 CMakeFiles/my_robot_msgs: /opt/ros/humble/share/geometry_msgs/msg/Polygon.idl
+CMakeFiles/my_robot_msgs: /opt/ros/humble/share/geometry_msgs/msg/PolygonInstance.idl
+CMakeFiles/my_robot_msgs: /opt/ros/humble/share/geometry_msgs/msg/PolygonInstanceStamped.idl
 CMakeFiles/my_robot_msgs: /opt/ros/humble/share/geometry_msgs/msg/PolygonStamped.idl
 CMakeFiles/my_robot_msgs: /opt/ros/humble/share/geometry_msgs/msg/Pose.idl
 CMakeFiles/my_robot_msgs: /opt/ros/humble/share/geometry_msgs/msg/Pose2D.idl

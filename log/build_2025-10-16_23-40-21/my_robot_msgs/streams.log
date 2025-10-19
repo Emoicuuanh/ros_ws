@@ -1,0 +1,159 @@
+[0.023s] Invoking command in '/home/dung/ros_ws/build/my_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake /home/dung/ros_ws/src/my_robot_msgs -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/my_robot_msgs
+[0.039s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.152s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.168s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.198s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.201s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.209s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.257s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.269s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.565s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.888s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.018s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.033s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.033s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.033s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.058s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.066s] -- Added test 'lint_cmake' to check CMake code style
+[1.067s] -- Added test 'xmllint' to check XML markup files
+[1.069s] -- Configuring done
+[1.098s] -- Generating done
+[1.106s] -- Build files have been written to: /home/dung/ros_ws/build/my_robot_msgs
+[1.112s] Invoked command in '/home/dung/ros_ws/build/my_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake /home/dung/ros_ws/src/my_robot_msgs -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/my_robot_msgs
+[1.112s] Invoking command in '/home/dung/ros_ws/build/my_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_msgs -- -j12 -l12
+[1.139s] [35m[1mConsolidate compiler generated dependencies of target my_robot_msgs__rosidl_generator_c[0m
+[1.149s] [  3%] Built target my_robot_msgs__cpp
+[1.151s] [ 12%] Built target my_robot_msgs__rosidl_generator_c
+[1.157s] [ 12%] Built target ament_cmake_python_symlink_my_robot_msgs
+[1.159s] [35m[1mConsolidate compiler generated dependencies of target my_robot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.159s] [35m[1mConsolidate compiler generated dependencies of target my_robot_msgs__rosidl_typesupport_cpp[0m
+[1.160s] [35m[1mConsolidate compiler generated dependencies of target my_robot_msgs__rosidl_typesupport_introspection_c[0m
+[1.160s] [35m[1mConsolidate compiler generated dependencies of target my_robot_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.161s] [35m[1mConsolidate compiler generated dependencies of target my_robot_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.162s] [35m[1mConsolidate compiler generated dependencies of target my_robot_msgs__rosidl_typesupport_c[0m
+[1.169s] [ 22%] Built target my_robot_msgs__rosidl_typesupport_introspection_c
+[1.170s] [ 32%] Built target my_robot_msgs__rosidl_typesupport_cpp
+[1.170s] [ 41%] Built target my_robot_msgs__rosidl_typesupport_c
+[1.171s] [ 51%] Built target my_robot_msgs__rosidl_typesupport_fastrtps_c
+[1.172s] [ 61%] Built target my_robot_msgs__rosidl_typesupport_fastrtps_cpp
+[1.172s] [ 70%] Built target my_robot_msgs__rosidl_typesupport_introspection_cpp
+[1.183s] [ 70%] Built target my_robot_msgs
+[1.194s] [ 74%] Built target my_robot_msgs__py
+[1.200s] [35m[1mConsolidate compiler generated dependencies of target my_robot_msgs__rosidl_generator_py[0m
+[1.207s] [ 80%] Built target my_robot_msgs__rosidl_generator_py
+[1.213s] [35m[1mConsolidate compiler generated dependencies of target my_robot_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.213s] [35m[1mConsolidate compiler generated dependencies of target my_robot_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.213s] [35m[1mConsolidate compiler generated dependencies of target my_robot_msgs__rosidl_typesupport_c__pyext[0m
+[1.220s] [100%] Built target my_robot_msgs__rosidl_typesupport_introspection_c__pyext
+[1.221s] [100%] Built target my_robot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.221s] [100%] Built target my_robot_msgs__rosidl_typesupport_c__pyext
+[1.312s] running egg_info
+[1.313s] writing my_robot_msgs.egg-info/PKG-INFO
+[1.313s] writing dependency_links to my_robot_msgs.egg-info/dependency_links.txt
+[1.313s] writing top-level names to my_robot_msgs.egg-info/top_level.txt
+[1.314s] reading manifest file 'my_robot_msgs.egg-info/SOURCES.txt'
+[1.314s] writing manifest file 'my_robot_msgs.egg-info/SOURCES.txt'
+[1.331s] [100%] Built target ament_cmake_python_build_my_robot_msgs_egg
+[1.337s] Invoked command in '/home/dung/ros_ws/build/my_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_msgs -- -j12 -l12
+[1.338s] Invoking command in '/home/dung/ros_ws/build/my_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_msgs
+[1.343s] -- Install configuration: ""
+[1.343s] -- Execute custom install script
+[1.343s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/ament_index/resource_index/rosidl_interfaces/my_robot_msgs
+[1.343s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.344s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/srv/detail/get_tranform__functions.h
+[1.344s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/srv/detail/get_tranform__struct.h
+[1.344s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/srv/detail/get_tranform__type_support.h
+[1.344s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/srv/get_tranform.h
+[1.344s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/environment/library_path.sh
+[1.344s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/environment/library_path.dsv
+[1.344s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.344s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/srv/detail/get_tranform__rosidl_typesupport_fastrtps_c.h
+[1.344s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.344s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/srv/detail/get_tranform__builder.hpp
+[1.344s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/srv/detail/get_tranform__struct.hpp
+[1.344s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/srv/detail/get_tranform__traits.hpp
+[1.345s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/srv/detail/get_tranform__type_support.hpp
+[1.345s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/srv/get_tranform.hpp
+[1.345s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.345s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/srv/detail/get_tranform__rosidl_typesupport_fastrtps_cpp.hpp
+[1.345s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.345s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/srv/detail/get_tranform__rosidl_typesupport_introspection_c.h
+[1.345s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/include/my_robot_msgs/my_robot_msgs/srv/detail/get_tranform__rosidl_typesupport_introspection_cpp.hpp
+[1.345s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/environment/pythonpath.sh
+[1.345s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/environment/pythonpath.dsv
+[1.346s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.346s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.346s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.346s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.346s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/__init__.py
+[1.346s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/_my_robot_msgs_s.ep.rosidl_typesupport_c.c
+[1.346s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/_my_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.346s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/_my_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.346s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/libmy_robot_msgs__rosidl_generator_py.so
+[1.346s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/my_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.346s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/my_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.346s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/my_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.347s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/srv/__init__.py
+[1.347s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/srv/_get_tranform.py
+[1.347s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/srv/_get_tranform_s.c
+[1.347s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/my_robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.347s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/my_robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.347s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/my_robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.347s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/srv/GetTranform.idl
+[1.347s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/srv/GetTranform.srv
+[1.347s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/srv/GetTranform_Request.msg
+[1.347s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/srv/GetTranform_Response.msg
+[1.347s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/ament_index/resource_index/package_run_dependencies/my_robot_msgs
+[1.347s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/ament_index/resource_index/parent_prefix_path/my_robot_msgs
+[1.348s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/environment/ament_prefix_path.sh
+[1.348s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/environment/ament_prefix_path.dsv
+[1.348s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/environment/path.sh
+[1.348s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/environment/path.dsv
+[1.348s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/local_setup.bash
+[1.348s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/local_setup.sh
+[1.348s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/local_setup.zsh
+[1.348s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/local_setup.dsv
+[1.348s] -- Symlinking: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/package.dsv
+[1.353s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/ament_index/resource_index/packages/my_robot_msgs
+[1.353s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/rosidl_cmake-extras.cmake
+[1.353s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.353s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.353s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.353s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.353s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.353s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.353s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/my_robot_msgsConfig.cmake
+[1.353s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/my_robot_msgsConfig-version.cmake
+[1.353s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/package.xml
+[1.354s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/lib/libmy_robot_msgs__rosidl_generator_c.so
+[1.354s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/lib/libmy_robot_msgs__rosidl_typesupport_fastrtps_c.so
+[1.354s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/lib/libmy_robot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.354s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/lib/libmy_robot_msgs__rosidl_typesupport_introspection_c.so
+[1.354s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/lib/libmy_robot_msgs__rosidl_typesupport_c.so
+[1.354s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/lib/libmy_robot_msgs__rosidl_typesupport_introspection_cpp.so
+[1.354s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/lib/libmy_robot_msgs__rosidl_typesupport_cpp.so
+[1.376s] Listing '/home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs'...
+[1.376s] Compiling '/home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/__init__.py'...
+[1.376s] Listing '/home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages/my_robot_msgs/srv'...
+[1.379s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/lib/libmy_robot_msgs__rosidl_generator_py.so
+[1.379s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/export_my_robot_msgs__rosidl_generator_cExport.cmake
+[1.379s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/export_my_robot_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.379s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/export_my_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.379s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/export_my_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.380s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/export_my_robot_msgs__rosidl_generator_cppExport.cmake
+[1.380s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/export_my_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.380s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/export_my_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.380s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/my_robot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.380s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/my_robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.380s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/my_robot_msgs__rosidl_typesupport_cExport.cmake
+[1.380s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/my_robot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.380s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/my_robot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.380s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/my_robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.380s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/my_robot_msgs__rosidl_typesupport_cppExport.cmake
+[1.380s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/my_robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.380s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/export_my_robot_msgs__rosidl_generator_pyExport.cmake
+[1.380s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_msgs/share/my_robot_msgs/cmake/export_my_robot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.381s] Invoked command in '/home/dung/ros_ws/build/my_robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_msgs

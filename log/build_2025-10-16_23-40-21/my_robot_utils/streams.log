@@ -1,0 +1,60 @@
+[0.020s] Invoking command in '/home/dung/ros_ws/build/my_robot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake /home/dung/ros_ws/src/my_robot_utils -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/my_robot_utils
+[0.030s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.165s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.170s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.171s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.187s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.189s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.195s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.243s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.276s] -- Found twist_mux_msgs: 3.0.1 (/opt/ros/humble/share/twist_mux_msgs/cmake)
+[0.392s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.463s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.463s] -- Added test 'lint_cmake' to check CMake code style
+[0.463s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.464s] -- Added test 'xmllint' to check XML markup files
+[0.465s] -- Configuring done
+[0.470s] -- Generating done
+[0.471s] -- Build files have been written to: /home/dung/ros_ws/build/my_robot_utils
+[0.476s] Invoked command in '/home/dung/ros_ws/build/my_robot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake /home/dung/ros_ws/src/my_robot_utils -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/my_robot_utils
+[0.477s] Invoking command in '/home/dung/ros_ws/build/my_robot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_utils -- -j12 -l12
+[0.510s] Built target ament_cmake_python_symlink_my_robot_utils
+[0.694s] running egg_info
+[0.696s] writing my_robot_utils.egg-info/PKG-INFO
+[0.696s] writing dependency_links to my_robot_utils.egg-info/dependency_links.txt
+[0.696s] writing top-level names to my_robot_utils.egg-info/top_level.txt
+[0.697s] reading manifest file 'my_robot_utils.egg-info/SOURCES.txt'
+[0.697s] writing manifest file 'my_robot_utils.egg-info/SOURCES.txt'
+[0.723s] Built target ament_cmake_python_build_my_robot_utils_egg
+[0.730s] Invoked command in '/home/dung/ros_ws/build/my_robot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_utils -- -j12 -l12
+[0.731s] Invoking command in '/home/dung/ros_ws/build/my_robot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_utils
+[0.736s] -- Install configuration: ""
+[0.736s] -- Execute custom install script
+[0.736s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/environment/pythonpath.sh
+[0.736s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/environment/pythonpath.dsv
+[0.736s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/local/lib/python3.10/dist-packages/my_robot_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[0.736s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/local/lib/python3.10/dist-packages/my_robot_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.736s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/local/lib/python3.10/dist-packages/my_robot_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.737s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/local/lib/python3.10/dist-packages/my_robot_utils-0.0.0-py3.10.egg-info/top_level.txt
+[0.737s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/local/lib/python3.10/dist-packages/my_robot_utils/__init__.py
+[0.737s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/local/lib/python3.10/dist-packages/my_robot_utils/safety_stop.py
+[0.737s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/lib/my_robot_utils/safety_stop.py
+[0.737s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/ament_index/resource_index/package_run_dependencies/my_robot_utils
+[0.737s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/ament_index/resource_index/parent_prefix_path/my_robot_utils
+[0.737s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/environment/ament_prefix_path.sh
+[0.737s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/environment/ament_prefix_path.dsv
+[0.737s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/environment/path.sh
+[0.738s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/environment/path.dsv
+[0.738s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/local_setup.bash
+[0.738s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/local_setup.sh
+[0.738s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/local_setup.zsh
+[0.738s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/local_setup.dsv
+[0.738s] -- Symlinking: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/package.dsv
+[0.743s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/ament_index/resource_index/packages/my_robot_utils
+[0.743s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/cmake/my_robot_utilsConfig.cmake
+[0.743s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/cmake/my_robot_utilsConfig-version.cmake
+[0.743s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_utils/share/my_robot_utils/package.xml
+[0.766s] Listing '/home/dung/ros_ws/install/my_robot_utils/local/lib/python3.10/dist-packages/my_robot_utils'...
+[0.775s] Invoked command in '/home/dung/ros_ws/build/my_robot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_utils

@@ -1,0 +1,48 @@
+running develop
+Removing /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard-teleop.egg-link (link to .)
+running egg_info
+writing ../../build/keyboard_teleop/keyboard_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/keyboard_teleop/keyboard_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/keyboard_teleop/keyboard_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/keyboard_teleop/keyboard_teleop.egg-info/requires.txt
+writing top-level names to ../../build/keyboard_teleop/keyboard_teleop.egg-info/top_level.txt
+reading manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/keyboard_teleop/keyboard_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dung/ros_ws/build/keyboard_teleop/build
+creating /home/dung/ros_ws/build/keyboard_teleop/build/lib
+creating /home/dung/ros_ws/build/keyboard_teleop/build/lib/keyboard_teleop
+copying keyboard_teleop/Control_Keyboard.py -> /home/dung/ros_ws/build/keyboard_teleop/build/lib/keyboard_teleop
+copying keyboard_teleop/__init__.py -> /home/dung/ros_ws/build/keyboard_teleop/build/lib/keyboard_teleop
+creating /home/dung/ros_ws/build/keyboard_teleop/build/lib/dung_py_ex
+copying dung_py_ex/parameter_py.py -> /home/dung/ros_ws/build/keyboard_teleop/build/lib/dung_py_ex
+copying dung_py_ex/turtlesim_kinematic.py -> /home/dung/ros_ws/build/keyboard_teleop/build/lib/dung_py_ex
+copying dung_py_ex/__init__.py -> /home/dung/ros_ws/build/keyboard_teleop/build/lib/dung_py_ex
+copying dung_py_ex/simple_tf_kinematic.py -> /home/dung/ros_ws/build/keyboard_teleop/build/lib/dung_py_ex
+running install
+running install_lib
+creating /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop
+copying /home/dung/ros_ws/build/keyboard_teleop/build/lib/keyboard_teleop/Control_Keyboard.py -> /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop
+copying /home/dung/ros_ws/build/keyboard_teleop/build/lib/keyboard_teleop/__init__.py -> /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop
+creating /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/dung_py_ex
+copying /home/dung/ros_ws/build/keyboard_teleop/build/lib/dung_py_ex/parameter_py.py -> /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/dung_py_ex
+copying /home/dung/ros_ws/build/keyboard_teleop/build/lib/dung_py_ex/turtlesim_kinematic.py -> /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/dung_py_ex
+copying /home/dung/ros_ws/build/keyboard_teleop/build/lib/dung_py_ex/__init__.py -> /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/dung_py_ex
+copying /home/dung/ros_ws/build/keyboard_teleop/build/lib/dung_py_ex/simple_tf_kinematic.py -> /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/dung_py_ex
+byte-compiling /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop/Control_Keyboard.py to Control_Keyboard.cpython-310.pyc
+byte-compiling /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/dung_py_ex/parameter_py.py to parameter_py.cpython-310.pyc
+byte-compiling /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/dung_py_ex/turtlesim_kinematic.py to turtlesim_kinematic.cpython-310.pyc
+byte-compiling /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/dung_py_ex/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/dung_py_ex/simple_tf_kinematic.py to simple_tf_kinematic.cpython-310.pyc
+running install_data
+copying resource/keyboard_teleop -> /home/dung/ros_ws/install/keyboard_teleop/share/ament_index/resource_index/packages
+copying package.xml -> /home/dung/ros_ws/install/keyboard_teleop/share/keyboard_teleop
+running install_egg_info
+Copying ../../build/keyboard_teleop/keyboard_teleop.egg-info to /home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages/keyboard_teleop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control_keyboard script to /home/dung/ros_ws/install/keyboard_teleop/lib/keyboard_teleop
+Installing simple_parameter script to /home/dung/ros_ws/install/keyboard_teleop/lib/keyboard_teleop
+Installing simple_tf_kinematic script to /home/dung/ros_ws/install/keyboard_teleop/lib/keyboard_teleop
+writing list of installed files to '/home/dung/ros_ws/build/keyboard_teleop/install.log'

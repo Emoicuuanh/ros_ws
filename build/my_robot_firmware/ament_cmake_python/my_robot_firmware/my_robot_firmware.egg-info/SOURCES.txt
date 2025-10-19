@@ -1,0 +1,7 @@
+setup.py
+my_robot_firmware/__init__.py
+my_robot_firmware/simple_serial_send.py
+my_robot_firmware.egg-info/PKG-INFO
+my_robot_firmware.egg-info/SOURCES.txt
+my_robot_firmware.egg-info/dependency_links.txt
+my_robot_firmware.egg-info/top_level.txt

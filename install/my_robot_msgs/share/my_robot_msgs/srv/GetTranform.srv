@@ -1,7 +1,1 @@
-#request
-string frame_id
-string child_frame_id
----
-#response
-geometry_msgs/TransformStamped tranform 
-bool success
+/home/dung/ros_ws/src/my_robot_msgs/srv/GetTranform.srv

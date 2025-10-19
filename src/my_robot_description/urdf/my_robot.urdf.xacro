@@ -7,4 +7,5 @@
     <xacro:include filename="common_property.xacro"/>
     <xacro:include filename="mobile_base.xacro"/>
     <xacro:include filename="mobile_base_gazebo.xacro"/>
+    <!-- <xacro:include filename="lidar_config.xacro"/> -->
 </robot> 

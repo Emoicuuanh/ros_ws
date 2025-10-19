@@ -1,0 +1,1 @@
+/home/dung/ros_ws/build/my_robot_firmware/ament_cmake_python/my_robot_firmware/my_robot_firmware.egg-info/SOURCES.txt
