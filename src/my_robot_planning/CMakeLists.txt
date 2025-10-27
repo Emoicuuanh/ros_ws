@@ -8,16 +8,29 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
+find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
+include_directories(include)
+add_executable(djiktra_planner src/djiktra_planner.cpp)
+ament_target_dependencies(djiktra_planner rclcpp nav_msgs geometry_msgs tf2_ros)
 ament_python_install_package(${PROJECT_NAME})
 
 install(PROGRAMS
   ${PROJECT_NAME}/djiktra_planner.py
   ${PROJECT_NAME}/a_star.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(
+  DIRECTORY include
+  DESTINATION include
+)
+install(TARGETS
+  djiktra_planner
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -33,4 +46,6 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+ament_export_include_directories(include)
+ament_export_dependencies(rclcpp nav_msgs geometry_msgs tf2_ros)
 ament_package()

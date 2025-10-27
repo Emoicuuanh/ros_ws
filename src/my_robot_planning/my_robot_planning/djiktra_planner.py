@@ -33,11 +33,11 @@ class DijkstraPLanner(Node):
 
         map_qos = QoSProfile(depth = 10)
         map_qos.durability = DurabilityPolicy.TRANSIENT_LOCAL
-        self.map_sub = self.create_subscription(OccupancyGrid,"/costmap",self.map_callback,map_qos)
+        self.map_sub = self.create_subscription(OccupancyGrid,"/costmap/costmap",self.map_callback,map_qos)
         self.pose_sub = self.create_subscription(PoseStamped,"/goal_pose",self.goalcallback,10)
 
         self.path_pub = self.create_publisher(Path,"/dijkstra/path",10)
-        self.map_pub = self.create_publisher(OccupancyGrid,"dijkstra/visitedmap",10)
+        self.map_pub = self.create_publisher(OccupancyGrid,"dijkstra/visited_map",10)
 
         self.map_ = None
         self.visited_map = OccupancyGrid()
@@ -54,7 +54,7 @@ class DijkstraPLanner(Node):
     def goalcallback(self, pose :PoseStamped):
         if self.map_ is None:
             self.get_logger().error("No received map")
-            return
+            return  
         
         self.visited_map.data = [-1] * (self.map_.info.width * self.map_.info.height)
         try:
