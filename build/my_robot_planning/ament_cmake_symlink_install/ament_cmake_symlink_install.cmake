@@ -322,8 +322,20 @@ ament_cmake_symlink_install_directory("/home/dung/ros_ws/src/my_robot_planning" 
 # install(DIRECTORY "/home/dung/ros_ws/src/my_robot_planning/my_robot_planning/" "DESTINATION" "local/lib/python3.10/dist-packages/my_robot_planning" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/dung/ros_ws/src/my_robot_planning" DIRECTORY "/home/dung/ros_ws/src/my_robot_planning/my_robot_planning/" "DESTINATION" "local/lib/python3.10/dist-packages/my_robot_planning" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(PROGRAMS "my_robot_planning/djiktra_planner.py" "my_robot_planning/a_star.py" "DESTINATION" "lib/my_robot_planning")
-ament_cmake_symlink_install_programs("/home/dung/ros_ws/src/my_robot_planning" PROGRAMS "my_robot_planning/djiktra_planner.py" "my_robot_planning/a_star.py" "DESTINATION" "lib/my_robot_planning")
+# install(FILES "global_planner_plugins.xml" "DESTINATION" "share/my_robot_planning/")
+ament_cmake_symlink_install_files("/home/dung/ros_ws/src/my_robot_planning" FILES "global_planner_plugins.xml" "DESTINATION" "share/my_robot_planning/")
+
+# install(PROGRAMS "my_robot_planning/dijkstra_planner.py" "my_robot_planning/a_star.py" "DESTINATION" "lib/my_robot_planning")
+ament_cmake_symlink_install_programs("/home/dung/ros_ws/src/my_robot_planning" PROGRAMS "my_robot_planning/dijkstra_planner.py" "my_robot_planning/a_star.py" "DESTINATION" "lib/my_robot_planning")
+
+# install(DIRECTORY "include" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/home/dung/ros_ws/src/my_robot_planning" DIRECTORY "include" "DESTINATION" "include")
+
+# install("TARGETS" "dijkstra_planner" "a_star" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "DESTINATION" "lib/my_robot_planning")
+include("/home/dung/ros_ws/build/my_robot_planning/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "global_planner_plugins.xml" "DESTINATION" "share/my_robot_planning")
+ament_cmake_symlink_install_files("/home/dung/ros_ws/src/my_robot_planning" FILES "global_planner_plugins.xml" "DESTINATION" "share/my_robot_planning")
 
 # install(FILES "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_planning" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/dung/ros_ws/src/my_robot_planning" FILES "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_planning" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
@@ -360,6 +372,15 @@ ament_cmake_symlink_install_files("/home/dung/ros_ws/src/my_robot_planning" FILE
 
 # install(FILES "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_index/share/ament_index/resource_index/packages/my_robot_planning" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/dung/ros_ws/src/my_robot_planning" FILES "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_index/share/ament_index/resource_index/packages/my_robot_planning" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_index/share/ament_index/resource_index/nav2_core__pluginlib__plugin/my_robot_planning" "DESTINATION" "share/ament_index/resource_index/nav2_core__pluginlib__plugin")
+ament_cmake_symlink_install_files("/home/dung/ros_ws/src/my_robot_planning" FILES "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_index/share/ament_index/resource_index/nav2_core__pluginlib__plugin/my_robot_planning" "DESTINATION" "share/ament_index/resource_index/nav2_core__pluginlib__plugin")
+
+# install(FILES "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/my_robot_planning/cmake")
+ament_cmake_symlink_install_files("/home/dung/ros_ws/src/my_robot_planning" FILES "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/my_robot_planning/cmake")
+
+# install(FILES "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/my_robot_planning/cmake")
+ament_cmake_symlink_install_files("/home/dung/ros_ws/src/my_robot_planning" FILES "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/my_robot_planning/cmake")
 
 # install(FILES "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_core/my_robot_planningConfig.cmake" "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_core/my_robot_planningConfig-version.cmake" "DESTINATION" "share/my_robot_planning/cmake")
 ament_cmake_symlink_install_files("/home/dung/ros_ws/src/my_robot_planning" FILES "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_core/my_robot_planningConfig.cmake" "/home/dung/ros_ws/build/my_robot_planning/ament_cmake_core/my_robot_planningConfig-version.cmake" "DESTINATION" "share/my_robot_planning/cmake")

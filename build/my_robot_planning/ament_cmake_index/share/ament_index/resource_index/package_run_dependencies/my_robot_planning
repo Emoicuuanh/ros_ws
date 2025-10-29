@@ -1,1 +1,1 @@
-nav_msgs;rclpy;geometry_msgs;tf2_ros;ament_lint_auto;ament_lint_common
+nav_msgs;nav2_msgs;rclpy;rclcpp_action;rclcpp;geometry_msgs;tf2_ros;nav2_core;nav2_costmap_2d;nav2_util;pluginlib;ament_lint_auto;ament_lint_common

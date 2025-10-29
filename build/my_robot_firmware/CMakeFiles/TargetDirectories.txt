@@ -1,6 +1,6 @@
 /home/dung/ros_ws/build/my_robot_firmware/CMakeFiles/uninstall.dir
 /home/dung/ros_ws/build/my_robot_firmware/CMakeFiles/my_robot_firmware_uninstall.dir
-/home/dung/ros_ws/build/my_robot_firmware/CMakeFiles/ament_cmake_python_symlink_my_robot_firmware.dir
+/home/dung/ros_ws/build/my_robot_firmware/CMakeFiles/ament_cmake_python_copy_my_robot_firmware.dir
 /home/dung/ros_ws/build/my_robot_firmware/CMakeFiles/ament_cmake_python_build_my_robot_firmware_egg.dir
 /home/dung/ros_ws/build/my_robot_firmware/CMakeFiles/test.dir
 /home/dung/ros_ws/build/my_robot_firmware/CMakeFiles/edit_cache.dir

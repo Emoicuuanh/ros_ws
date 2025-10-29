@@ -1,1 +1,0 @@
-/home/dung/ros_ws/src/my_robot_localization/my_robot_localization/__init__.py

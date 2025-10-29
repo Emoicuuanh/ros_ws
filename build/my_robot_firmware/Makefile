@@ -198,17 +198,17 @@ my_robot_firmware_uninstall/fast:
 .PHONY : my_robot_firmware_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_my_robot_firmware
+# Target rules for targets named ament_cmake_python_copy_my_robot_firmware
 
 # Build rule for target.
-ament_cmake_python_symlink_my_robot_firmware: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_my_robot_firmware
-.PHONY : ament_cmake_python_symlink_my_robot_firmware
+ament_cmake_python_copy_my_robot_firmware: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_my_robot_firmware
+.PHONY : ament_cmake_python_copy_my_robot_firmware
 
 # fast build rule for target.
-ament_cmake_python_symlink_my_robot_firmware/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_my_robot_firmware.dir/build.make CMakeFiles/ament_cmake_python_symlink_my_robot_firmware.dir/build
-.PHONY : ament_cmake_python_symlink_my_robot_firmware/fast
+ament_cmake_python_copy_my_robot_firmware/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_my_robot_firmware.dir/build.make CMakeFiles/ament_cmake_python_copy_my_robot_firmware.dir/build
+.PHONY : ament_cmake_python_copy_my_robot_firmware/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_my_robot_firmware_egg
@@ -237,7 +237,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_my_robot_firmware_egg"
-	@echo "... ament_cmake_python_symlink_my_robot_firmware"
+	@echo "... ament_cmake_python_copy_my_robot_firmware"
 	@echo "... my_robot_firmware_uninstall"
 	@echo "... uninstall"
 .PHONY : help

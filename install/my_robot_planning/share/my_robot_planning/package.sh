@@ -79,6 +79,7 @@ _colcon_package_sh_source_script() {
 
 # source sh hooks
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/my_robot_planning/hook/cmake_prefix_path.sh"
+_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/my_robot_planning/hook/ld_library_path_lib.sh"
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/my_robot_planning/local_setup.sh"
 
 unset _colcon_package_sh_source_script

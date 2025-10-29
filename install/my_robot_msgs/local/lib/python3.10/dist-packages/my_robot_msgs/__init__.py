@@ -1,1 +1,0 @@
-/home/dung/ros_ws/build/my_robot_msgs/rosidl_generator_py/my_robot_msgs/__init__.py

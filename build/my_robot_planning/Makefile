@@ -198,6 +198,32 @@ my_robot_planning_uninstall/fast:
 .PHONY : my_robot_planning_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named dijkstra_planner
+
+# Build rule for target.
+dijkstra_planner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dijkstra_planner
+.PHONY : dijkstra_planner
+
+# fast build rule for target.
+dijkstra_planner/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra_planner.dir/build.make CMakeFiles/dijkstra_planner.dir/build
+.PHONY : dijkstra_planner/fast
+
+#=============================================================================
+# Target rules for targets named a_star
+
+# Build rule for target.
+a_star: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a_star
+.PHONY : a_star
+
+# fast build rule for target.
+a_star/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star.dir/build.make CMakeFiles/a_star.dir/build
+.PHONY : a_star/fast
+
+#=============================================================================
 # Target rules for targets named ament_cmake_python_symlink_my_robot_planning
 
 # Build rule for target.
@@ -223,6 +249,54 @@ ament_cmake_python_build_my_robot_planning_egg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_my_robot_planning_egg.dir/build.make CMakeFiles/ament_cmake_python_build_my_robot_planning_egg.dir/build
 .PHONY : ament_cmake_python_build_my_robot_planning_egg/fast
 
+src/a_star.o: src/a_star.cpp.o
+.PHONY : src/a_star.o
+
+# target to build an object file
+src/a_star.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star.dir/build.make CMakeFiles/a_star.dir/src/a_star.cpp.o
+.PHONY : src/a_star.cpp.o
+
+src/a_star.i: src/a_star.cpp.i
+.PHONY : src/a_star.i
+
+# target to preprocess a source file
+src/a_star.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star.dir/build.make CMakeFiles/a_star.dir/src/a_star.cpp.i
+.PHONY : src/a_star.cpp.i
+
+src/a_star.s: src/a_star.cpp.s
+.PHONY : src/a_star.s
+
+# target to generate assembly for a file
+src/a_star.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a_star.dir/build.make CMakeFiles/a_star.dir/src/a_star.cpp.s
+.PHONY : src/a_star.cpp.s
+
+src/dijkstra_planner.o: src/dijkstra_planner.cpp.o
+.PHONY : src/dijkstra_planner.o
+
+# target to build an object file
+src/dijkstra_planner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra_planner.dir/build.make CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o
+.PHONY : src/dijkstra_planner.cpp.o
+
+src/dijkstra_planner.i: src/dijkstra_planner.cpp.i
+.PHONY : src/dijkstra_planner.i
+
+# target to preprocess a source file
+src/dijkstra_planner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra_planner.dir/build.make CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.i
+.PHONY : src/dijkstra_planner.cpp.i
+
+src/dijkstra_planner.s: src/dijkstra_planner.cpp.s
+.PHONY : src/dijkstra_planner.s
+
+# target to generate assembly for a file
+src/dijkstra_planner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra_planner.dir/build.make CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.s
+.PHONY : src/dijkstra_planner.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,6 +314,14 @@ help:
 	@echo "... ament_cmake_python_symlink_my_robot_planning"
 	@echo "... my_robot_planning_uninstall"
 	@echo "... uninstall"
+	@echo "... a_star"
+	@echo "... dijkstra_planner"
+	@echo "... src/a_star.o"
+	@echo "... src/a_star.i"
+	@echo "... src/a_star.s"
+	@echo "... src/dijkstra_planner.o"
+	@echo "... src/dijkstra_planner.i"
+	@echo "... src/dijkstra_planner.s"
 .PHONY : help
 
 

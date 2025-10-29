@@ -1,1 +1,1 @@
-/home/dung/ros_ws/build/myrobot_controller/ament_cmake_python/myrobot_controller/myrobot_controller.egg-info/top_level.txt
+myrobot_controller
