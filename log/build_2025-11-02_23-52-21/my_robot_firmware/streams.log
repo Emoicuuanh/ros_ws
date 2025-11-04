@@ -1,0 +1,40 @@
+[0.048s] Invoking command in '/home/dung/ros_ws/build/my_robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_firmware -- -j6 -l6
+[0.173s] Built target ament_cmake_python_copy_my_robot_firmware
+[0.656s] running egg_info
+[0.657s] writing my_robot_firmware.egg-info/PKG-INFO
+[0.657s] writing dependency_links to my_robot_firmware.egg-info/dependency_links.txt
+[0.657s] writing top-level names to my_robot_firmware.egg-info/top_level.txt
+[0.657s] reading manifest file 'my_robot_firmware.egg-info/SOURCES.txt'
+[0.657s] writing manifest file 'my_robot_firmware.egg-info/SOURCES.txt'
+[0.852s] Built target ament_cmake_python_build_my_robot_firmware_egg
+[0.920s] Invoked command in '/home/dung/ros_ws/build/my_robot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_firmware -- -j6 -l6
+[0.933s] Invoking command in '/home/dung/ros_ws/build/my_robot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_firmware
+[1.082s] -- Install configuration: ""
+[1.082s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/environment/pythonpath.sh
+[1.082s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/environment/pythonpath.dsv
+[1.082s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware-0.0.0-py3.10.egg-info
+[1.082s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.082s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.082s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[1.082s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[1.082s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware
+[1.082s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware/simple_serial_send.py
+[1.082s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware/__init__.py
+[1.094s] Listing '/home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware'...
+[1.109s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/lib/my_robot_firmware/simple_serial_send.py
+[1.109s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/ament_index/resource_index/package_run_dependencies/my_robot_firmware
+[1.109s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/ament_index/resource_index/parent_prefix_path/my_robot_firmware
+[1.110s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/environment/ament_prefix_path.sh
+[1.110s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/environment/ament_prefix_path.dsv
+[1.110s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/environment/path.sh
+[1.110s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/environment/path.dsv
+[1.110s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/local_setup.bash
+[1.110s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/local_setup.sh
+[1.110s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/local_setup.zsh
+[1.110s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/local_setup.dsv
+[1.111s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/package.dsv
+[1.112s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/ament_index/resource_index/packages/my_robot_firmware
+[1.112s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/cmake/my_robot_firmwareConfig.cmake
+[1.112s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/cmake/my_robot_firmwareConfig-version.cmake
+[1.112s] -- Up-to-date: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/package.xml
+[1.118s] Invoked command in '/home/dung/ros_ws/build/my_robot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_firmware

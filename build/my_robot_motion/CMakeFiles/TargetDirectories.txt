@@ -1,5 +1,6 @@
 /home/dung/ros_ws/build/my_robot_motion/CMakeFiles/uninstall.dir
 /home/dung/ros_ws/build/my_robot_motion/CMakeFiles/my_robot_motion_uninstall.dir
+/home/dung/ros_ws/build/my_robot_motion/CMakeFiles/pd_motion_planner.dir
 /home/dung/ros_ws/build/my_robot_motion/CMakeFiles/test.dir
 /home/dung/ros_ws/build/my_robot_motion/CMakeFiles/edit_cache.dir
 /home/dung/ros_ws/build/my_robot_motion/CMakeFiles/rebuild_cache.dir

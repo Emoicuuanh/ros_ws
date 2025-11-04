@@ -1,0 +1,104 @@
+[0.015s] Invoking command in '/home/dung/ros_ws/build/myrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake /home/dung/ros_ws/src/myrobot_controller -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/myrobot_controller
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.131s] -- The CXX compiler identification is GNU 11.4.0
+[0.144s] -- Detecting C compiler ABI info
+[0.214s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.225s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.225s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.323s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.324s] -- Detecting CXX compile features
+[0.324s] -- Detecting CXX compile features - done
+[0.330s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.593s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.806s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.810s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.887s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.892s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.900s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.931s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.963s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.989s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.022s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.062s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[1.081s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.195s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.200s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.378s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.453s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.528s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.548s] -- Looking for pthread.h
+[1.700s] -- Looking for pthread.h - found
+[1.701s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.842s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.842s] -- Found Threads: TRUE  
+[2.032s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.102s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.102s] -- Added test 'lint_cmake' to check CMake code style
+[2.102s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.103s] -- Added test 'xmllint' to check XML markup files
+[2.104s] -- Configuring done
+[2.108s] -- Generating done
+[2.110s] -- Build files have been written to: /home/dung/ros_ws/build/myrobot_controller
+[2.123s] Invoked command in '/home/dung/ros_ws/build/myrobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake /home/dung/ros_ws/src/myrobot_controller -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/myrobot_controller
+[2.125s] Invoking command in '/home/dung/ros_ws/build/myrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/myrobot_controller -- -j6 -l6
+[2.188s] Built target ament_cmake_python_copy_myrobot_controller
+[2.429s] running egg_info
+[2.430s] creating myrobot_controller.egg-info
+[2.430s] writing myrobot_controller.egg-info/PKG-INFO
+[2.430s] writing dependency_links to myrobot_controller.egg-info/dependency_links.txt
+[2.430s] writing top-level names to myrobot_controller.egg-info/top_level.txt
+[2.431s] writing manifest file 'myrobot_controller.egg-info/SOURCES.txt'
+[2.433s] reading manifest file 'myrobot_controller.egg-info/SOURCES.txt'
+[2.433s] writing manifest file 'myrobot_controller.egg-info/SOURCES.txt'
+[2.466s] Built target ament_cmake_python_build_myrobot_controller_egg
+[2.482s] Invoked command in '/home/dung/ros_ws/build/myrobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/myrobot_controller -- -j6 -l6
+[2.492s] Invoking command in '/home/dung/ros_ws/build/myrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/myrobot_controller
+[2.504s] -- Install configuration: ""
+[2.504s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/environment/pythonpath.sh
+[2.504s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/environment/pythonpath.dsv
+[2.504s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info
+[2.504s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.504s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.504s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[2.505s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[2.505s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller
+[2.505s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/twist_relay.py
+[2.505s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/simple_controller.py
+[2.505s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/__init__.py
+[2.505s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/noisy_controller.py
+[2.543s] Listing '/home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller'...
+[2.543s] Compiling '/home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/__init__.py'...
+[2.543s] Compiling '/home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/noisy_controller.py'...
+[2.543s] Compiling '/home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/simple_controller.py'...
+[2.543s] Compiling '/home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages/myrobot_controller/twist_relay.py'...
+[2.547s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller//config
+[2.548s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller//config/twist_mux_topics.yaml
+[2.548s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller//config/myrobot_config.yaml
+[2.548s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller//config/twist_mux_locks.yaml
+[2.548s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller//config/twist_mux_key.yaml
+[2.548s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller//launch
+[2.548s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller//launch/my_robot_controller.launch.py
+[2.548s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller//launch/keyboard.launch.py
+[2.551s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/lib/myrobot_controller/simple_controller.py
+[2.551s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/lib/myrobot_controller/noisy_controller.py
+[2.551s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/lib/myrobot_controller/twist_relay.py
+[2.551s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/ament_index/resource_index/package_run_dependencies/myrobot_controller
+[2.551s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/ament_index/resource_index/parent_prefix_path/myrobot_controller
+[2.551s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/environment/ament_prefix_path.sh
+[2.552s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/environment/ament_prefix_path.dsv
+[2.552s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/environment/path.sh
+[2.552s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/environment/path.dsv
+[2.552s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/local_setup.bash
+[2.552s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/local_setup.sh
+[2.552s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/local_setup.zsh
+[2.552s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/local_setup.dsv
+[2.552s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/package.dsv
+[2.552s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/ament_index/resource_index/packages/myrobot_controller
+[2.552s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/cmake/myrobot_controllerConfig.cmake
+[2.553s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/cmake/myrobot_controllerConfig-version.cmake
+[2.554s] -- Installing: /home/dung/ros_ws/install/myrobot_controller/share/myrobot_controller/package.xml
+[2.560s] Invoked command in '/home/dung/ros_ws/build/myrobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/myrobot_controller

@@ -3,7 +3,7 @@ import math
 import rclpy
 from rclpy.node import Node
 from nav_msgs.msg import Path
-from geometry_msgs.msg import Twist,PoseStamped,TwistStamped
+from geometry_msgs.msg import Twist,PoseStamped
 from tf2_ros import Buffer,TransformListener
 from tf_transformations import quaternion_matrix ,concatenate_matrices, quaternion_from_matrix,translation_from_matrix,inverse_matrix
 class PDMotionPlanner(Node):
@@ -21,8 +21,8 @@ class PDMotionPlanner(Node):
         self.max_linear_velocity = self.get_parameter("max_linear_velocity").value
         self.max_angular_velocity = self.get_parameter("max_angular_velocity").value
 
-        self.path_sub = self.create_subscription(Path,"/astar/path",self.path_callback,10)
-        self.cmd_pub = self.create_publisher(TwistStamped,"my_robot_controller/cmd_vel",10)
+        self.path_sub = self.create_subscription(Path,"/a_star/path",self.path_callback,10)
+        self.cmd_pub = self.create_publisher(Twist,"/cmd_vel",10)
         self.next_pose_pub = self.create_publisher(PoseStamped,"/pd/nextpose",10)
 
         self.tf_buffer = Buffer()
@@ -65,10 +65,9 @@ class PDMotionPlanner(Node):
             self.get_logger().info("Goal Reached!")
             self.global_plan.poses.clear()
 
-            stop_cmd = TwistStamped()
-            stop_cmd.header.stamp = self.get_clock().now().to_msg()
-            stop_cmd.twist.linear.x = 0.0
-            stop_cmd.twist.angular.z = 0.0
+            stop_cmd = Twist()
+            stop_cmd.linear.x = 0.0
+            stop_cmd.angular.z = 0.0
             self.cmd_pub.publish(stop_cmd)
 
             return
@@ -101,12 +100,11 @@ class PDMotionPlanner(Node):
         linear_error_derivative = (linear_error - self.prev_linear_error) / dt
         angular_derivative_error = (angular_error - self.prev_angular_error) / dt
 
-        cmd_vel = TwistStamped()
-        cmd_vel.header.stamp = self.get_clock().now().to_msg()
-        cmd_vel.twist.linear.x = max(
+        cmd_vel = Twist()
+        cmd_vel.linear.x = max(
             -self.max_linear_velocity,
             min(self.kp * linear_error + self.kd * linear_error_derivative, self.max_linear_velocity))
-        cmd_vel.twist.angular.z = max(
+        cmd_vel.angular.z = max(
             -self.max_angular_velocity,
             min(self.kp * angular_error + self.kd * angular_derivative_error, self.max_angular_velocity))
         self.cmd_pub.publish(cmd_vel)

@@ -3,7 +3,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64MultiArray
-from geometry_msgs.msg import TwistStamped,TransformStamped
+from geometry_msgs.msg import Twist,TransformStamped
 import numpy as np
 from tf2_ros.transform_listener import TransformListener
 from tf2_ros.buffer import Buffer
@@ -32,7 +32,7 @@ class SimpleController(Node):
         self.theta_ = 0.0
         
         self.wheel_cmd_pub_ =self.create_publisher(Float64MultiArray,"simple_velocity_controller/commands",10)
-        self.vel_sub_ =self.create_subscription(TwistStamped,"my_robot_controller/cmd_vel",self.velcallback,10)
+        self.vel_sub_ =self.create_subscription(Twist,"/cmd_vel",self.velcallback,10)
    
         self.joint_sub_ =self.create_subscription(JointState,"joint_states",self.jointCallback,10)
         self.odom_pub_ = self.create_publisher(Odometry,"my_robot/odom",10)
@@ -52,14 +52,14 @@ class SimpleController(Node):
         
         self.vel_conver_ = np.array([[self.wheel_radius_/2,self.wheel_radius_/2] , [self.wheel_radius_/self.wheel_serapation_ , -self.wheel_radius_/self.wheel_serapation_]])
     def velcallback(self,msg):
-        robot_speed = np.array([[msg.twist.linear.x],[msg.twist.angular.z]])
+        robot_speed = np.array([[msg.linear.x],[msg.angular.z]])
 
         wheel_speed = np.matmul(np.linalg.inv(self.vel_conver_),robot_speed)
         wheel_speed_msg = Float64MultiArray()
         wheel_speed_msg.data =[wheel_speed[1,0] , wheel_speed[0,0]]
 
         self.wheel_cmd_pub_.publish(wheel_speed_msg)
-        self.get_logger().info(f"Received cmd_vel: linear={msg.twist.linear.x}, angular={msg.twist.angular.z}")
+        self.get_logger().info(f"Received cmd_vel: linear={msg.linear.x}, angular={msg.angular.z}")
     def jointCallback(self, msg):
         dp_left = msg.position[1] - self.left_wheel_pre_pos
         dp_right = msg.position[0] - self.right_wheel_pre_pos

@@ -224,17 +224,17 @@ a_star/fast:
 .PHONY : a_star/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_my_robot_planning
+# Target rules for targets named ament_cmake_python_copy_my_robot_planning
 
 # Build rule for target.
-ament_cmake_python_symlink_my_robot_planning: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_my_robot_planning
-.PHONY : ament_cmake_python_symlink_my_robot_planning
+ament_cmake_python_copy_my_robot_planning: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_my_robot_planning
+.PHONY : ament_cmake_python_copy_my_robot_planning
 
 # fast build rule for target.
-ament_cmake_python_symlink_my_robot_planning/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/build.make CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/build
-.PHONY : ament_cmake_python_symlink_my_robot_planning/fast
+ament_cmake_python_copy_my_robot_planning/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/build.make CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/build
+.PHONY : ament_cmake_python_copy_my_robot_planning/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_my_robot_planning_egg
@@ -311,7 +311,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_my_robot_planning_egg"
-	@echo "... ament_cmake_python_symlink_my_robot_planning"
+	@echo "... ament_cmake_python_copy_my_robot_planning"
 	@echo "... my_robot_planning_uninstall"
 	@echo "... uninstall"
 	@echo "... a_star"

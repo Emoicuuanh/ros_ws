@@ -2,6 +2,7 @@
 #include "rmw/qos_profiles.h"
 #include "geometry_msgs/msg/transform.hpp"
 #include <queue>
+
 namespace my_robot_planning
 { 
 void AStarPlanner::configure(

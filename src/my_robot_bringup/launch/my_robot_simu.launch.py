@@ -26,6 +26,13 @@ def generate_launch_description():
         "my_robot_controller.launch.py"
     ), 
     )
+    navigation = IncludeLaunchDescription(
+    os.path.join(
+        get_package_share_directory("my_robot_navi"),
+        "launch",
+        "navigation.launch.py"
+    ), 
+    )
     localization = IncludeLaunchDescription(
         os.path.join(
             get_package_share_directory("my_robot_localization"),
@@ -74,6 +81,7 @@ def generate_launch_description():
         slam,
         key_board,
         safety_stop,
+        navigation,
         rviz2
     ])
 

@@ -1,0 +1,24 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages",
+        "/home/dung/ros_ws/install/my_robot_utils/local/lib/python3.10/dist-packages",
+        "/home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages",
+        "/home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages",
+        "/home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages",
+        "/home/dung/ros_ws/install/my_robot_localization/local/lib/python3.10/dist-packages",
+        "/home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/dung/ros_ws/install/myrobot_controller/local/lib/python3.10/dist-packages",
+        "/home/dung/ros_ws/install/my_robot_utils/local/lib/python3.10/dist-packages",
+        "/home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages",
+        "/home/dung/ros_ws/install/keyboard_teleop/lib/python3.10/site-packages",
+        "/home/dung/ros_ws/install/my_robot_msgs/local/lib/python3.10/dist-packages",
+        "/home/dung/ros_ws/install/my_robot_localization/local/lib/python3.10/dist-packages",
+        "/home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

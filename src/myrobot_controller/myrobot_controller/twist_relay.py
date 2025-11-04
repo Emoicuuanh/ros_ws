@@ -14,8 +14,8 @@ class TwistRelay(Node):
             10
             )
         self.controller_pub = self.create_publisher(
-            TwistStamped,
-            "/my_robot_controller/cmd_vel",
+            Twist,
+            "/cmd_vel",
             10
             )
         self.key_sub = self.create_subscription(
@@ -30,10 +30,9 @@ class TwistRelay(Node):
             10
             )
     def controller_twist_callback(self, msg: Twist):
-        twist_stamped = TwistStamped()
-        twist_stamped.header.stamp = self.get_clock().now().to_msg()
-        twist_stamped.twist = msg
-        self.controller_pub.publish(twist_stamped)
+        twist_ = Twist()
+        twist_ = msg
+        self.controller_pub.publish(twist_)
     def joy_twist_callback(self, msg: TwistStamped):
         twist = Twist()
         twist = msg.twist

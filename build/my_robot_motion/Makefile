@@ -197,6 +197,43 @@ my_robot_motion_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_motion_uninstall.dir/build.make CMakeFiles/my_robot_motion_uninstall.dir/build
 .PHONY : my_robot_motion_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named pd_motion_planner
+
+# Build rule for target.
+pd_motion_planner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pd_motion_planner
+.PHONY : pd_motion_planner
+
+# fast build rule for target.
+pd_motion_planner/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pd_motion_planner.dir/build.make CMakeFiles/pd_motion_planner.dir/build
+.PHONY : pd_motion_planner/fast
+
+src/pd_motion_planner.o: src/pd_motion_planner.cpp.o
+.PHONY : src/pd_motion_planner.o
+
+# target to build an object file
+src/pd_motion_planner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pd_motion_planner.dir/build.make CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.o
+.PHONY : src/pd_motion_planner.cpp.o
+
+src/pd_motion_planner.i: src/pd_motion_planner.cpp.i
+.PHONY : src/pd_motion_planner.i
+
+# target to preprocess a source file
+src/pd_motion_planner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pd_motion_planner.dir/build.make CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.i
+.PHONY : src/pd_motion_planner.cpp.i
+
+src/pd_motion_planner.s: src/pd_motion_planner.cpp.s
+.PHONY : src/pd_motion_planner.s
+
+# target to generate assembly for a file
+src/pd_motion_planner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pd_motion_planner.dir/build.make CMakeFiles/pd_motion_planner.dir/src/pd_motion_planner.cpp.s
+.PHONY : src/pd_motion_planner.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... my_robot_motion_uninstall"
 	@echo "... uninstall"
+	@echo "... pd_motion_planner"
+	@echo "... src/pd_motion_planner.o"
+	@echo "... src/pd_motion_planner.i"
+	@echo "... src/pd_motion_planner.s"
 .PHONY : help
 
 

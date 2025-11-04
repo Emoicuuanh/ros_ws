@@ -25,7 +25,7 @@ add_library(dijkstra_planner SHARED src/dijkstra_planner.cpp)
 ament_target_dependencies(dijkstra_planner rclcpp nav_msgs geometry_msgs tf2_ros nav2_core nav2_msgs nav2_costmap_2d nav2_util pluginlib)
 
 add_library(a_star SHARED src/a_star.cpp)
-ament_target_dependencies(a_star rclcpp nav_msgs geometry_msgs tf2_ros nav2_core nav2_costmap_2d nav2_util pluginlib)
+ament_target_dependencies(a_star rclcpp nav_msgs geometry_msgs tf2_ros nav2_core nav2_costmap_2d nav2_util pluginlib nav2_msgs)
 ament_python_install_package(${PROJECT_NAME})
 
 pluginlib_export_plugin_description_file(nav2_core global_planner_plugins.xml)

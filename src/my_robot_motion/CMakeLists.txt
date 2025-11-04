@@ -8,10 +8,24 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
+find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
+find_package(nav2_core REQUIRED)
+find_package(nav2_msgs REQUIRED)
+find_package(nav2_costmap_2d REQUIRED)
+find_package(nav2_util REQUIRED)
+find_package(pluginlib REQUIRED)
+
+include_directories(include)
+
+add_library(pd_motion_planner SHARED src/pd_motion_planner.cpp)
+ament_target_dependencies(pd_motion_planner rclcpp nav_msgs tf2_ros geometry_msgs tf2_geometry_msgs nav2_core nav2_msgs nav2_costmap_2d nav2_util pluginlib)
+
+pluginlib_export_plugin_description_file(nav2_core motion_planner_plugins.xml)
 
 install(PROGRAMS
   ${PROJECT_NAME}/pd_motion_planner.py
@@ -19,6 +33,20 @@ install(PROGRAMS
   DESTINATION lib/${PROJECT_NAME}
 )
 
+install(
+  DIRECTORY include
+  DESTINATION include
+)
+
+install(TARGETS
+  pd_motion_planner
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION lib/${PROJECT_NAME}
+)
+install(FILES motion_planner_plugins.xml
+  DESTINATION share/${PROJECT_NAME}
+)
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -31,4 +59,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+ament_export_include_directories(include)
+ament_export_dependencies(rclcpp nav_msgs tf2_ros geometry_msgs tf2_geometry_msgs nav2_core nav2_msgs nav2_costmap_2d nav2_util pluginlib)
+ament_export_libraries(pd_motion_planner)
 ament_package()

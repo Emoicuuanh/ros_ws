@@ -77,7 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/my_robot_planning_uninstall.dir/clean
 clean: CMakeFiles/dijkstra_planner.dir/clean
 clean: CMakeFiles/a_star.dir/clean
-clean: CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/clean
+clean: CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_my_robot_planning_egg.dir/clean
 .PHONY : clean
 
@@ -186,36 +186,36 @@ CMakeFiles/a_star.dir/clean:
 .PHONY : CMakeFiles/a_star.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir
+# Target rules for target CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/build.make CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/build.make CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dung/ros_ws/build/my_robot_planning/CMakeFiles --progress-num= "Built target ament_cmake_python_symlink_my_robot_planning"
-.PHONY : CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/all
+CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/build.make CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/build.make CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dung/ros_ws/build/my_robot_planning/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_my_robot_planning"
+.PHONY : CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/rule: cmake_check_build_system
+CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dung/ros_ws/build/my_robot_planning/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dung/ros_ws/build/my_robot_planning/CMakeFiles 0
-.PHONY : CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/rule
+.PHONY : CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/rule
 
 # Convenience name for target.
-ament_cmake_python_symlink_my_robot_planning: CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/rule
-.PHONY : ament_cmake_python_symlink_my_robot_planning
+ament_cmake_python_copy_my_robot_planning: CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/rule
+.PHONY : ament_cmake_python_copy_my_robot_planning
 
 # clean rule for target.
-CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/build.make CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/clean
-.PHONY : CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/clean
+CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/build.make CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ament_cmake_python_build_my_robot_planning_egg.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_build_my_robot_planning_egg.dir/all: CMakeFiles/ament_cmake_python_symlink_my_robot_planning.dir/all
+CMakeFiles/ament_cmake_python_build_my_robot_planning_egg.dir/all: CMakeFiles/ament_cmake_python_copy_my_robot_planning.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_my_robot_planning_egg.dir/build.make CMakeFiles/ament_cmake_python_build_my_robot_planning_egg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_my_robot_planning_egg.dir/build.make CMakeFiles/ament_cmake_python_build_my_robot_planning_egg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dung/ros_ws/build/my_robot_planning/CMakeFiles --progress-num= "Built target ament_cmake_python_build_my_robot_planning_egg"

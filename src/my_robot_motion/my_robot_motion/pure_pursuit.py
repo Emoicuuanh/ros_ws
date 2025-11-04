@@ -18,7 +18,7 @@ class PurePursuit(Node):
         self.max_linear_velocity = self.get_parameter("max_linear_velocity").value
         self.max_angular_velocity = self.get_parameter("max_angular_velocity").value
 
-        self.path_sub = self.create_subscription(Path,"/astar/path",self.path_callback,10)
+        self.path_sub = self.create_subscription(Path,"/a_star/path",self.path_callback,10)
         self.cmd_pub = self.create_publisher(TwistStamped,"my_robot_controller/cmd_vel",10)
         self.carrot_pub = self.create_publisher(PoseStamped,"/pure_pursuit/carrot",10)
 

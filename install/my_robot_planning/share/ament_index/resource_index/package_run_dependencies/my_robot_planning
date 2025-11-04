@@ -1,1 +1,1 @@
-/home/dung/ros_ws/build/my_robot_planning/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_robot_planning
+nav_msgs;nav2_msgs;rclpy;rclcpp_action;rclcpp;geometry_msgs;tf2_ros;nav2_core;nav2_costmap_2d;nav2_util;pluginlib;ament_lint_auto;ament_lint_common
