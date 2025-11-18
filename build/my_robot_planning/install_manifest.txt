@@ -1,11 +1,11 @@
 /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/environment/pythonpath.sh
 /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/environment/pythonpath.dsv
 /home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning-0.0.0-py3.10.egg-info/dependency_links.txt
-/home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning-0.0.0-py3.10.egg-info/SOURCES.txt
-/home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning-0.0.0-py3.10.egg-info/top_level.txt
 /home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning-0.0.0-py3.10.egg-info/PKG-INFO
-/home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning/dijkstra_planner.py
+/home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning-0.0.0-py3.10.egg-info/top_level.txt
+/home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning/__init__.py
+/home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning/dijkstra_planner.py
 /home/dung/ros_ws/install/my_robot_planning/local/lib/python3.10/dist-packages/my_robot_planning/a_star.py
 /home/dung/ros_ws/install/my_robot_planning/share/my_robot_planning/global_planner_plugins.xml
 /home/dung/ros_ws/install/my_robot_planning/lib/my_robot_planning/dijkstra_planner.py

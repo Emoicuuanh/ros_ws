@@ -9,7 +9,7 @@ from launch.conditions import UnlessCondition,IfCondition
 def generate_launch_description():
     use_slam_arg = DeclareLaunchArgument(
         "use_slam",
-        default_value= "false"
+        default_value= "true"
     )
     use_slam = LaunchConfiguration("use_slam")
     gazebo = IncludeLaunchDescription(

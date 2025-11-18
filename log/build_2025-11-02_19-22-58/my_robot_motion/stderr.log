@@ -1,9 +1,0 @@
-[01m[K/home/dung/ros_ws/src/my_robot_motion/src/pd_motion_planner.cpp:[m[K In member function ‘[01m[Kvirtual void my_robot_motion::PDMotionPlanner::setSpeedLimit(const double&, const bool&)[m[K’:
-[01m[K/home/dung/ros_ws/src/my_robot_motion/src/pd_motion_planner.cpp:137:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kspeed_limit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-  137 | mit([01;35m[Kconst double & speed_limit[m[K, const bool & percentage)
-      |     [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
-
-[01m[K/home/dung/ros_ws/src/my_robot_motion/src/pd_motion_planner.cpp:137:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpercentage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-  137 | imit, [01;35m[Kconst bool & percentage[m[K)
-      |       [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
-

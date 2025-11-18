@@ -1,8 +1,8 @@
-/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/planner_server.yaml
-/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/bt_navigation.yaml
-/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/behavior_server.yaml
-/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/smoother_server.yaml
 /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/controller_server.yaml
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/bt_navigation.yaml
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/planner_server.yaml
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/smoother_server.yaml
+/home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/behavior_server.yaml
 /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/costmap.yaml
 /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/launch/navigation.launch.py
 /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/behavior_tree/simple_navigation_2.xml

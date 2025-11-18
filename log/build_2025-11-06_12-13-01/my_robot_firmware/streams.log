@@ -1,0 +1,57 @@
+[0.029s] Invoking command in '/home/dung/ros_ws/build/my_robot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dung/ros_ws/src/my_robot_firmware -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/my_robot_firmware
+[0.063s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.219s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.336s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.414s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.485s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.486s] -- Added test 'lint_cmake' to check CMake code style
+[0.487s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.487s] -- Added test 'xmllint' to check XML markup files
+[0.488s] -- Configuring done
+[0.492s] -- Generating done
+[0.494s] -- Build files have been written to: /home/dung/ros_ws/build/my_robot_firmware
+[0.500s] Invoked command in '/home/dung/ros_ws/build/my_robot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dung/ros_ws/src/my_robot_firmware -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/my_robot_firmware
+[0.502s] Invoking command in '/home/dung/ros_ws/build/my_robot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_firmware -- -j12 -l12
+[0.561s] Built target ament_cmake_python_copy_my_robot_firmware
+[0.837s] running egg_info
+[0.838s] creating my_robot_firmware.egg-info
+[0.838s] writing my_robot_firmware.egg-info/PKG-INFO
+[0.839s] writing dependency_links to my_robot_firmware.egg-info/dependency_links.txt
+[0.839s] writing top-level names to my_robot_firmware.egg-info/top_level.txt
+[0.839s] writing manifest file 'my_robot_firmware.egg-info/SOURCES.txt'
+[0.843s] reading manifest file 'my_robot_firmware.egg-info/SOURCES.txt'
+[0.843s] writing manifest file 'my_robot_firmware.egg-info/SOURCES.txt'
+[0.885s] Built target ament_cmake_python_build_my_robot_firmware_egg
+[0.897s] Invoked command in '/home/dung/ros_ws/build/my_robot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_firmware -- -j12 -l12
+[0.900s] Invoking command in '/home/dung/ros_ws/build/my_robot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_firmware
+[0.906s] -- Install configuration: ""
+[0.906s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/environment/pythonpath.sh
+[0.907s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/environment/pythonpath.dsv
+[0.907s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware-0.0.0-py3.10.egg-info
+[0.907s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.907s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[0.907s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[0.907s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.907s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware
+[0.907s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware/__init__.py
+[0.907s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware/simple_serial_send.py
+[0.939s] Listing '/home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware'...
+[0.939s] Compiling '/home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware/__init__.py'...
+[0.939s] Compiling '/home/dung/ros_ws/install/my_robot_firmware/local/lib/python3.10/dist-packages/my_robot_firmware/simple_serial_send.py'...
+[0.942s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/lib/my_robot_firmware/simple_serial_send.py
+[0.943s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/ament_index/resource_index/package_run_dependencies/my_robot_firmware
+[0.943s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/ament_index/resource_index/parent_prefix_path/my_robot_firmware
+[0.943s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/environment/ament_prefix_path.sh
+[0.943s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/environment/ament_prefix_path.dsv
+[0.943s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/environment/path.sh
+[0.943s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/environment/path.dsv
+[0.943s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/local_setup.bash
+[0.943s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/local_setup.sh
+[0.944s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/local_setup.zsh
+[0.944s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/local_setup.dsv
+[0.944s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/package.dsv
+[0.944s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/ament_index/resource_index/packages/my_robot_firmware
+[0.944s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/cmake/my_robot_firmwareConfig.cmake
+[0.944s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/cmake/my_robot_firmwareConfig-version.cmake
+[0.944s] -- Installing: /home/dung/ros_ws/install/my_robot_firmware/share/my_robot_firmware/package.xml
+[0.946s] Invoked command in '/home/dung/ros_ws/build/my_robot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_firmware

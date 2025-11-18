@@ -1,0 +1,4 @@
+Invoking command in '/home/dung/ros_ws/build/myrobot_controller': /usr/bin/cmake --build /home/dung/ros_ws/build/myrobot_controller -- -j12 -l12
+Invoked command in '/home/dung/ros_ws/build/myrobot_controller' returned '0': /usr/bin/cmake --build /home/dung/ros_ws/build/myrobot_controller -- -j12 -l12
+Invoking command in '/home/dung/ros_ws/build/myrobot_controller': /usr/bin/cmake --install /home/dung/ros_ws/build/myrobot_controller
+Invoked command in '/home/dung/ros_ws/build/myrobot_controller' returned '0': /usr/bin/cmake --install /home/dung/ros_ws/build/myrobot_controller

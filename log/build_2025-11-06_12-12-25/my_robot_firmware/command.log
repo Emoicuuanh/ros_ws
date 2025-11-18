@@ -1,0 +1,2 @@
+Invoking command in '/home/dung/ros_ws/build/my_robot_firmware': /usr/bin/cmake /home/dung/ros_ws/src/my_robot_firmware -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/my_robot_firmware
+Invoked command in '/home/dung/ros_ws/build/my_robot_firmware' returned '1': /usr/bin/cmake /home/dung/ros_ws/src/my_robot_firmware -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/my_robot_firmware
