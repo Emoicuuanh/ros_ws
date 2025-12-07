@@ -9,15 +9,20 @@ def generate_launch_description():
 
     use_sim_time_arg = DeclareLaunchArgument(
         "use_sim_time",
-        default_value="true"
+        default_value="true" 
     )
 
     map_name_arg = DeclareLaunchArgument(
         "map_name",
         default_value="map"
     )
-
+    map_yaml_name = DeclareLaunchArgument(
+        "map_yaml_name",
+        default_value="map.yaml"
+    )
+    
     map_name = LaunchConfiguration("map_name")
+    map_yaml = LaunchConfiguration("map_yaml_name")
     use_sim_time = LaunchConfiguration("use_sim_time")
     lifecycle_nodes = ["map_server","amcl"]
     amcl_config_path = DeclareLaunchArgument(
@@ -31,12 +36,13 @@ def generate_launch_description():
         get_package_share_directory("my_robot_mapping"),
         "maps",
         map_name,
-        "map.yaml"
+        map_yaml
     ])
 
     nav2_map_server = Node(
         package = "nav2_map_server",
         executable= "map_server",
+        name="map_server",
         output = "screen",
         parameters=[
             {"yaml_filename":map_path},
@@ -71,6 +77,7 @@ def generate_launch_description():
     return LaunchDescription([
         map_name_arg,
         use_sim_time_arg,
+        map_yaml_name,
         amcl_config_path,
         nav2_map_server,
         nav2_amcl,

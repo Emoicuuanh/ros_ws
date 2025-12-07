@@ -1,5 +1,7 @@
 /home/dung/ros_ws/build/my_robot_navi/CMakeFiles/uninstall.dir
 /home/dung/ros_ws/build/my_robot_navi/CMakeFiles/my_robot_navi_uninstall.dir
+/home/dung/ros_ws/build/my_robot_navi/CMakeFiles/ament_cmake_python_symlink_my_robot_navi.dir
+/home/dung/ros_ws/build/my_robot_navi/CMakeFiles/ament_cmake_python_build_my_robot_navi_egg.dir
 /home/dung/ros_ws/build/my_robot_navi/CMakeFiles/test.dir
 /home/dung/ros_ws/build/my_robot_navi/CMakeFiles/edit_cache.dir
 /home/dung/ros_ws/build/my_robot_navi/CMakeFiles/rebuild_cache.dir

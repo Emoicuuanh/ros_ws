@@ -521,6 +521,19 @@ Visualization Manager:
         Reliability Policy: Reliable
         Value: /waypoints
       Value: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        {}
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /waypoint_markers
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -558,7 +571,7 @@ Visualization Manager:
   Value: true
   Views:
     Current:
-      Angle: 0.07919987291097641
+      Angle: 0.024199869483709335
       Class: rviz_default_plugins/TopDownOrtho
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
@@ -568,11 +581,11 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Scale: 22.02210235595703
+      Scale: 61.06903076171875
       Target Frame: <Fixed Frame>
       Value: TopDownOrtho (rviz_default_plugins)
-      X: 2.4473249912261963
-      Y: -2.548386812210083
+      X: 1.1350657939910889
+      Y: -0.11454494297504425
     Saved: ~
 Window Geometry:
   Displays:
@@ -592,5 +605,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 1210
-  X: 70
-  Y: 27
+  X: 89
+  Y: 46

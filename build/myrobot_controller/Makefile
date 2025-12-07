@@ -198,17 +198,17 @@ myrobot_controller_uninstall/fast:
 .PHONY : myrobot_controller_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_myrobot_controller
+# Target rules for targets named ament_cmake_python_symlink_myrobot_controller
 
 # Build rule for target.
-ament_cmake_python_copy_myrobot_controller: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_myrobot_controller
-.PHONY : ament_cmake_python_copy_myrobot_controller
+ament_cmake_python_symlink_myrobot_controller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_myrobot_controller
+.PHONY : ament_cmake_python_symlink_myrobot_controller
 
 # fast build rule for target.
-ament_cmake_python_copy_myrobot_controller/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_myrobot_controller.dir/build.make CMakeFiles/ament_cmake_python_copy_myrobot_controller.dir/build
-.PHONY : ament_cmake_python_copy_myrobot_controller/fast
+ament_cmake_python_symlink_myrobot_controller/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_myrobot_controller.dir/build.make CMakeFiles/ament_cmake_python_symlink_myrobot_controller.dir/build
+.PHONY : ament_cmake_python_symlink_myrobot_controller/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_myrobot_controller_egg
@@ -237,7 +237,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_myrobot_controller_egg"
-	@echo "... ament_cmake_python_copy_myrobot_controller"
+	@echo "... ament_cmake_python_symlink_myrobot_controller"
 	@echo "... myrobot_controller_uninstall"
 	@echo "... uninstall"
 .PHONY : help

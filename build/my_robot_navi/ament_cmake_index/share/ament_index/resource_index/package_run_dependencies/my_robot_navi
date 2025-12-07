@@ -1,1 +1,1 @@
-ros2launch;nav2_controller;nav2_planner;nav2_smoother;nav2_lifecycle_manager;ament_lint_auto;ament_lint_common
+rclpy;std_msgs;sensor_msgs;geometry_msgs;nav2_msgs;tf_transformations;visualization_msgs;ros2launch;nav2_controller;nav2_planner;nav2_smoother;nav2_lifecycle_manager;ament_lint_auto;ament_lint_common

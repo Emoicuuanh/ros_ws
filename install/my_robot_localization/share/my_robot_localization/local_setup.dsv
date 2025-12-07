@@ -1,3 +1,1 @@
-source;share/my_robot_localization/environment/ament_prefix_path.sh
-source;share/my_robot_localization/environment/path.sh
-source;share/my_robot_localization/environment/pythonpath.sh
+/home/dung/ros_ws/build/my_robot_localization/ament_cmake_environment_hooks/local_setup.dsv

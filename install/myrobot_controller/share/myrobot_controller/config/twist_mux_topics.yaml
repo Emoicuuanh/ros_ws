@@ -1,7 +1,1 @@
-twist_mux:
-  ros__parameters:
-    topics:
-      keyboard:
-        topic: key_vel
-        timeout: 0.5
-        priority: 90
+/home/dung/ros_ws/src/myrobot_controller/config/twist_mux_topics.yaml

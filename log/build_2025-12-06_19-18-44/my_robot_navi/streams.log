@@ -1,0 +1,78 @@
+[0.045s] Invoking command in '/home/dung/ros_ws/build/my_robot_navi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake /home/dung/ros_ws/src/my_robot_navi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/my_robot_navi
+[0.086s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.306s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.315s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[0.315s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.342s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.346s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.354s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.410s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.428s] -- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.499s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.641s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.771s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.775s] -- Added test 'lint_cmake' to check CMake code style
+[0.775s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.775s] -- Added test 'xmllint' to check XML markup files
+[0.775s] -- Configuring done
+[0.778s] -- Generating done
+[0.782s] -- Build files have been written to: /home/dung/ros_ws/build/my_robot_navi
+[0.797s] Invoked command in '/home/dung/ros_ws/build/my_robot_navi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake /home/dung/ros_ws/src/my_robot_navi -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/my_robot_navi
+[0.798s] Invoking command in '/home/dung/ros_ws/build/my_robot_navi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_navi -- -j12 -l12
+[1.094s] Built target ament_cmake_python_symlink_my_robot_navi
+[1.214s] running egg_info
+[1.216s] writing my_robot_navi.egg-info/PKG-INFO
+[1.216s] writing dependency_links to my_robot_navi.egg-info/dependency_links.txt
+[1.218s] writing top-level names to my_robot_navi.egg-info/top_level.txt
+[1.231s] reading manifest file 'my_robot_navi.egg-info/SOURCES.txt'
+[1.232s] writing manifest file 'my_robot_navi.egg-info/SOURCES.txt'
+[1.313s] Built target ament_cmake_python_build_my_robot_navi_egg
+[1.343s] Invoked command in '/home/dung/ros_ws/build/my_robot_navi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_navi -- -j12 -l12
+[1.344s] Invoking command in '/home/dung/ros_ws/build/my_robot_navi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_navi
+[1.352s] -- Install configuration: ""
+[1.353s] -- Execute custom install script
+[1.354s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/pythonpath.sh
+[1.354s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/pythonpath.dsv
+[1.355s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi-0.0.0-py3.10.egg-info/PKG-INFO
+[1.355s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.355s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.355s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi-0.0.0-py3.10.egg-info/top_level.txt
+[1.355s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi/__init__.py
+[1.355s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi/simple_goal_get.py
+[1.355s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi/simple_goal_pub.py
+[1.355s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/behavior_server.yaml
+[1.355s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/bt_navigation.yaml
+[1.355s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/controller_server.yaml
+[1.355s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/costmap.yaml
+[1.355s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/planner_server.yaml
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/config/smoother_server.yaml
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/launch/navigation.launch.py
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/behavior_tree/simple_navigation.xml
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/behavior_tree/simple_navigation_2.xml
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/lib/my_robot_navi/simple_goal_get.py
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/lib/my_robot_navi/simple_goal_pub.py
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/ament_index/resource_index/package_run_dependencies/my_robot_navi
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/ament_index/resource_index/parent_prefix_path/my_robot_navi
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/ament_prefix_path.sh
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/ament_prefix_path.dsv
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/path.sh
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/environment/path.dsv
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/local_setup.bash
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/local_setup.sh
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/local_setup.zsh
+[1.356s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/local_setup.dsv
+[1.356s] -- Symlinking: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/package.dsv
+[1.377s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/ament_index/resource_index/packages/my_robot_navi
+[1.377s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/cmake/my_robot_naviConfig.cmake
+[1.377s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/cmake/my_robot_naviConfig-version.cmake
+[1.379s] -- Up-to-date symlink: /home/dung/ros_ws/install/my_robot_navi/share/my_robot_navi/package.xml
+[1.436s] Listing '/home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi'...
+[1.436s] Listing '/home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi/build'...
+[1.437s] Listing '/home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi/install'...
+[1.438s] Listing '/home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi/log'...
+[1.438s] Listing '/home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi/log/build_2025-12-06_18-35-59'...
+[1.438s] Listing '/home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi/log/latest'...
+[1.438s] Listing '/home/dung/ros_ws/install/my_robot_navi/local/lib/python3.10/dist-packages/my_robot_navi/log/latest_build'...
+[1.447s] Invoked command in '/home/dung/ros_ws/build/my_robot_navi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_navi

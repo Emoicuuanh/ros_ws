@@ -197,6 +197,32 @@ my_robot_navi_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_robot_navi_uninstall.dir/build.make CMakeFiles/my_robot_navi_uninstall.dir/build
 .PHONY : my_robot_navi_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named ament_cmake_python_symlink_my_robot_navi
+
+# Build rule for target.
+ament_cmake_python_symlink_my_robot_navi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_my_robot_navi
+.PHONY : ament_cmake_python_symlink_my_robot_navi
+
+# fast build rule for target.
+ament_cmake_python_symlink_my_robot_navi/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_my_robot_navi.dir/build.make CMakeFiles/ament_cmake_python_symlink_my_robot_navi.dir/build
+.PHONY : ament_cmake_python_symlink_my_robot_navi/fast
+
+#=============================================================================
+# Target rules for targets named ament_cmake_python_build_my_robot_navi_egg
+
+# Build rule for target.
+ament_cmake_python_build_my_robot_navi_egg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_build_my_robot_navi_egg
+.PHONY : ament_cmake_python_build_my_robot_navi_egg
+
+# fast build rule for target.
+ament_cmake_python_build_my_robot_navi_egg/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_my_robot_navi_egg.dir/build.make CMakeFiles/ament_cmake_python_build_my_robot_navi_egg.dir/build
+.PHONY : ament_cmake_python_build_my_robot_navi_egg/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,6 +236,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... ament_cmake_python_build_my_robot_navi_egg"
+	@echo "... ament_cmake_python_symlink_my_robot_navi"
 	@echo "... my_robot_navi_uninstall"
 	@echo "... uninstall"
 .PHONY : help

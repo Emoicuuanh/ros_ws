@@ -1,10 +1,1 @@
-<class_libraries>
-    <library path="dijkstra_planner">
-        <class type = "my_robot_planning::DijkstraPlanner" base_class_type = "nav2_core::GlobalPlanner">
-        </class>
-    </library>
-    <library path="a_star">
-        <class type = "my_robot_planning::AStarPlanner" base_class_type = "nav2_core::GlobalPlanner">
-        </class>
-    </library>
-</class_libraries>
+/home/dung/ros_ws/src/my_robot_planning/global_planner_plugins.xml

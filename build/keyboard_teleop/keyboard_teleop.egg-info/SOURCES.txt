@@ -14,7 +14,11 @@ dung_py_ex/simple_tf_kinematic.py
 dung_py_ex/turtlesim_kinematic.py
 keyboard_teleop/Control_Keyboard.py
 keyboard_teleop/__init__.py
+keyboard_teleop.egg-info/PKG-INFO
+keyboard_teleop.egg-info/SOURCES.txt
+keyboard_teleop.egg-info/dependency_links.txt
+keyboard_teleop.egg-info/entry_points.txt
+keyboard_teleop.egg-info/requires.txt
+keyboard_teleop.egg-info/top_level.txt
+keyboard_teleop.egg-info/zip-safe
 resource/keyboard_teleop
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

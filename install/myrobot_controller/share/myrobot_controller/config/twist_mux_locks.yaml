@@ -1,7 +1,1 @@
-twist_mux:
-  ros__parameters:
-    locks:
-      safety_stop:
-        topic: safety_stop
-        timeout: 0.0
-        priority: 255
+/home/dung/ros_ws/src/myrobot_controller/config/twist_mux_locks.yaml

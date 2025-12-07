@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dung/ros_ws/build/my_robot_planning/libdijkstra_planner.so" "/home/dung/ros_ws/build/my_robot_planning/liba_star.so" "TARGETS" "dijkstra_planner" "a_star" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "DESTINATION" "lib/my_robot_planning")

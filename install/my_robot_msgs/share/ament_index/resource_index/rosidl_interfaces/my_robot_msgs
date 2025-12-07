@@ -1,4 +1,1 @@
-srv/GetTranform.idl
-srv/GetTranform.srv
-srv/GetTranform_Request.msg
-srv/GetTranform_Response.msg
+/home/dung/ros_ws/build/my_robot_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/my_robot_msgs

@@ -11,6 +11,12 @@ def generate_launch_description():
         "use_slam",
         default_value= "false"
     )
+    map_yaml_arg = DeclareLaunchArgument(
+    "map_yaml",
+    default_value="ttt.yaml"
+    )
+    map_yaml = LaunchConfiguration("map_yaml")
+
     use_slam = LaunchConfiguration("use_slam")
     gazebo = IncludeLaunchDescription(
         os.path.join(
@@ -39,7 +45,10 @@ def generate_launch_description():
             "launch",
             "global_localization.launch.py"
         ),
-        condition = UnlessCondition(use_slam)
+        condition = UnlessCondition(use_slam),
+        launch_arguments={
+        "map_yaml_name": map_yaml
+        }.items()
     )
     key_board = IncludeLaunchDescription(
         os.path.join(
@@ -61,6 +70,16 @@ def generate_launch_description():
         executable="safety_stop.py",
         output = "screen"
     )
+    goal_get = Node(
+        package="my_robot_navi",
+        executable="simple_goal_get.py",
+        output = "screen"
+    )
+    goal_pub = Node(
+        package="my_robot_navi",
+        executable="simple_goal_pub.py",
+        output = "screen"
+    )
     rviz_config_path = os.path.join(
         get_package_share_directory("my_robot_bringup"),
         "rviz",
@@ -75,6 +94,7 @@ def generate_launch_description():
     )
     return LaunchDescription([
         use_slam_arg,
+        map_yaml_arg,
         gazebo,
         controller,
         localization,
@@ -82,7 +102,9 @@ def generate_launch_description():
         key_board,
         safety_stop,
         navigation,
-        rviz2
+        rviz2,
+        goal_get,
+        goal_pub
     ])
 
 

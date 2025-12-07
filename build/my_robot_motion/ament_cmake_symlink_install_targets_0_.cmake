@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dung/ros_ws/build/my_robot_motion/libpd_motion_planner.so" "TARGETS" "pd_motion_planner" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/my_robot_motion")

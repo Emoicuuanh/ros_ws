@@ -1,1 +1,0 @@
-Invoking command in '/home/dung/ros_ws/build/myrobot_controller': /usr/bin/cmake /home/dung/ros_ws/src/myrobot_controller -DCMAKE_INSTALL_PREFIX=/home/dung/ros_ws/install/myrobot_controller

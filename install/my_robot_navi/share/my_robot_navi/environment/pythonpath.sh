@@ -1,0 +1,1 @@
+/home/dung/ros_ws/build/my_robot_navi/ament_cmake_environment_hooks/pythonpath.sh

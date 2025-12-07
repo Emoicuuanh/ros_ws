@@ -1,0 +1,8 @@
+setup.py
+my_robot_navi/__init__.py
+my_robot_navi/simple_goal_get.py
+my_robot_navi/simple_goal_pub.py
+my_robot_navi.egg-info/PKG-INFO
+my_robot_navi.egg-info/SOURCES.txt
+my_robot_navi.egg-info/dependency_links.txt
+my_robot_navi.egg-info/top_level.txt

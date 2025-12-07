@@ -1,4 +1,0 @@
-Invoking command in '/home/dung/ros_ws/build/my_robot_navi': /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_navi -- -j12 -l12
-Invoked command in '/home/dung/ros_ws/build/my_robot_navi' returned '0': /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_navi -- -j12 -l12
-Invoking command in '/home/dung/ros_ws/build/my_robot_navi': /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_navi
-Invoked command in '/home/dung/ros_ws/build/my_robot_navi' returned '0': /usr/bin/cmake --install /home/dung/ros_ws/build/my_robot_navi

@@ -1,1 +1,1 @@
-from my_robot_msgs.srv._get_tranform import GetTranform  # noqa: F401
+/home/dung/ros_ws/build/my_robot_msgs/rosidl_generator_py/my_robot_msgs/srv/__init__.py

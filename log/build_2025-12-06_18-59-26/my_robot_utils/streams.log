@@ -1,0 +1,9 @@
+[0.037s] Invoking command in '/home/dung/ros_ws/build/my_robot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dung/ros_ws/install/keyboard_teleop:/opt/ros/humble /usr/bin/cmake --build /home/dung/ros_ws/build/my_robot_utils -- -j12 -l12
+[0.099s] Built target ament_cmake_python_symlink_my_robot_utils
+[0.380s] running egg_info
+[0.380s] writing my_robot_utils.egg-info/PKG-INFO
+[0.382s] writing dependency_links to my_robot_utils.egg-info/dependency_links.txt
+[0.382s] writing top-level names to my_robot_utils.egg-info/top_level.txt
+[0.384s] reading manifest file 'my_robot_utils.egg-info/SOURCES.txt'
+[0.385s] writing manifest file 'my_robot_utils.egg-info/SOURCES.txt'
+[0.414s] Built target ament_cmake_python_build_my_robot_utils_egg
